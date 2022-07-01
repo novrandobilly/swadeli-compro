@@ -1,0 +1,50 @@
+.body {
+  .content-1 {
+    display: flex;
+    flex-direction: row;
+    background: #6ead60;
+    width: 1920px;
+    height: 784px;
+    left: 0px;
+    top: 0px;
+    .image-apple {
+      width: 779px;
+      height: 784px;
+      left: 0px;
+    }
+    .text-1 {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 752.21px;
+      height: 607px;
+      left: 756px;
+      top: 153px; 
+      .text-1-1 {
+        margin: 0px 0px !important;
+        font-family: Roboto, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80.1932px;
+        line-height: 108px;
+        color: #E5E5E5;
+        span {
+          font-weight: bold;  
+        }
+      }
+      .image-app {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        .app-store {
+          width: 230px;
+          height: 91px;
+        }
+        .google-play {
+          width: 230px;
+          height: 91px;
+        }
+      }
+    }
+  }
+}
