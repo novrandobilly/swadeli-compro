@@ -11,6 +11,9 @@ $breakpoint-large: 1024px;
   .temp {
     right: 0 !important;
   }
+  .logo {
+    z-index: 10;
+  }
   .navigation {
     //display: none;
     position: absolute;
@@ -18,17 +21,36 @@ $breakpoint-large: 1024px;
     display: flex;
     flex-direction: column;
     top: 0;
-    right: -200px;
+    right: -120%;
     animation: ease-in;
     transition: 500ms;
-    z-index: 0;
-    padding: 80px 10px 10px 10px;
-    width: 50%;
-    height: 50%;
-    text-align: center;
+    z-index: 1;
+    padding: 80px 25px 10px 25px;
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
     gap: 10px;
     font-weight: bold;
     color: #1d493d;
+    font-size: 50px;
+    .flag {
+      display: flex;
+      flex-direction: row;
+      font-size: 15px;
+      gap: 100px;
+      span {
+        margin: auto 0;
+      }
+    }
+    .download {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 20px;
+      margin-top: auto;
+      margin-bottom: 20px;
+    }
   }
   .menu {
     z-index: 1;
@@ -52,11 +74,18 @@ $breakpoint-large: 1024px;
       margin: auto 0;
       right: 0;
       width: fit-content;
+      height: fit-content;
       flex-direction: row;
       gap: 40px;
       font-size: 20px;
       font-weight: 400;
       font-family: Roboto, Helvetica, sans-serif;
+      .flag {
+        display: none;
+      }
+      .download {
+        display: none;
+      }
       a {
         display: block;
         margin: auto 0;

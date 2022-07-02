@@ -1,21 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../assets/Logo.png";
+import Flag from "../../assets/flag.png";
+import AppStore from "../../assets/app-store.png";
+import GooglePlay from "../../assets/google-play.png";
 import styles from "./Header.module.scss";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 
-const hamburger = () => {
-  active ? (
-    <CgClose className={styles["menu"]} onClick={() => setActive(!active)} />
-  ) : (
-    <GiHamburgerMenu
-      className={styles["menu"]}
-      onClick={() => setActive(!active)}
-    />
-  );
-};
 const Header = () => {
   const [active, setActive] = useState(false);
   return (
@@ -31,6 +24,14 @@ const Header = () => {
         <Link href="/about">
           <a>About us</a>
         </Link>
+        <div className={styles.flag}>
+          <span>Language</span>
+          <Image src={Flag} width={53} height={51} />
+        </div>
+        <div className={styles.download}>
+          <Image src={GooglePlay} width={175} height={59} />
+          <Image src={AppStore} width={175} height={59} />
+        </div>
       </nav>
       {active ? (
         <CgClose
