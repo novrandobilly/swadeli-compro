@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../assets/Logo.png";
 import Flag from "../../assets/flag.png";
@@ -9,16 +9,6 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 
-const hamburger = () => {
-  active ? (
-    <CgClose className={styles["menu"]} onClick={() => setActive(!active)} />
-  ) : (
-    <GiHamburgerMenu
-      className={styles["menu"]}
-      onClick={() => setActive(!active)}
-    />
-  );
-};
 const Header = () => {
   const [active, setActive] = useState(false);
   return (
