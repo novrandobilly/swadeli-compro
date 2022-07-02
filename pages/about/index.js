@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Header from '../../components/Header/Header'
+import AboutUs from '../../components/Pages/AboutUs/AboutUs'
 
 export default function Home() {
   return (
@@ -13,7 +15,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>About Us</h1>
+        <Header />
+        <AboutUs />
       </main>
     </div>
   );

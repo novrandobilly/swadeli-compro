@@ -1,0 +1,172 @@
+  @font-face {
+    font-family: 'Poetsen One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poetsen One Regular'), url('../../../assets/font/PoetsenOne-Regular.woff') format('woff');
+  }
+  @font-face {
+  font-family: 'Platform';
+  src: url('../../../assets/font/Platform-Regular.ttf');
+}
+.container {
+  background-color: #FED002;
+  width: 100%;
+  height: 1550px;
+  .title {
+    padding: 90px 110px;
+    h1 {
+      font-family: 'Poetsen One Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 100px;
+      color: #945200;
+    }
+  }
+  .middle {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 850px;
+    background: #FEC401;
+    width: 100%;
+    height: 342px;
+    display: flex;
+    .text-middle {
+      margin: auto auto;
+      width: 558.85px;
+      height: 187px;
+      margin-left: 730px;
+      h2 {
+        font-family: 'Platform';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 75.2299px;
+        line-height: 81px;
+        color: #000000;
+      }
+    }
+  }
+  .image-1 {
+    left: 85px;
+    width: 515px;
+    height: 606px;
+    position: absolute;
+    z-index: 1;
+  }
+  .text-1 {
+    position: absolute;
+    width: 609px;
+    height: 246px;
+    left: 730px;
+    p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 41px;
+      color: #000000;
+    }
+  }
+  .text-2 {
+    position: absolute;
+    width: 756px;
+    height: 321px;
+    left: 113px;
+    top: 1081px;
+    p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 41px;
+      color: #000000;
+    }
+  }
+  .image-2 {
+    position: absolute;
+    width: 456px;
+    height: 603px;
+    left: 950px;
+    top: 975px;
+    z-index: 1;
+  }
+}
+
+.container-2 {
+  width: 100%;
+  height: 1892px;
+  background: #F6F4E3;
+  padding: 90px 110px;
+  .title {
+    h1 {
+      font-family: 'Poetsen One Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 100px;
+      color: #945200;
+    }
+  }
+  h4 {
+    margin-top: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    span {
+      line-height: 120px;
+      font-weight: 400;
+      font-size: 30px;
+    }
+  }
+  .three-circle {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    gap: 132px;
+    margin-top: 65px;
+    .option-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      // justify-content: space-between;
+      .circle-1 {
+        margin: 0 auto;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #1D493D;
+        span {
+          margin: auto;
+          text-align: center;
+          color: white;
+        }
+      }
+      .text-1 {
+        width: 290px;
+        p {
+          text-align: center;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 41px;
+          color: #000000;
+        }
+      }
+      .text-2 {
+        width: 300px;
+        p {
+          text-align: center;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 41px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
