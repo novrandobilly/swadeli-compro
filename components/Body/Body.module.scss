@@ -1,48 +1,116 @@
+@font-face {
+  font-family: 'Platform';
+  src: url('../../assets/font/Platform-Regular.ttf');
+}
+@font-face {
+  font-family: 'Platform-BoldItalic';
+  src: url('../../assets/font/Platform-BoldItalic.ttf');
+}
+@font-face {font-family: "Platform Jules Light"; src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot"); src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff") format("woff"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.svg#Platform Jules Light") format("svg"); }
 .body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   .content-1 {
     display: flex;
     flex-direction: row;
-    background: #6ead60;
-    width: 1920px;
-    height: 784px;
-    left: 0px;
-    top: 0px;
-    .image-apple {
-      width: 779px;
-      height: 784px;
-      left: 0px;
+    background-color: #6ead60;
+    width: 100%;
+    height: 728px;
+    .apple-image {
+      width: 724px;
+      // width: 934px;
     }
-    .text-1 {
+    .text-content-1 {
       display: flex;
       flex-direction: column;
-      position: absolute;
-      width: 752.21px;
+      width: 672.21px;
       height: 607px;
-      left: 756px;
-      top: 153px; 
-      .text-1-1 {
-        margin: 0px 0px !important;
-        font-family: Roboto, Helvetica, sans-serif;
-        font-style: normal;
+      margin-left: 43px;
+      h1 {
+        margin: auto !important;
+        padding-top: 45px;
+        font-family: "Platform";
         font-weight: 400;
+        font-style: normal;
+        color: #E5E5E5;
         font-size: 80.1932px;
         line-height: 108px;
-        color: #E5E5E5;
         span {
-          font-weight: bold;  
+          font-weight: bold;
+        }
+        .text-italic {
+          font-family: "Platform-BoldItalic";
         }
       }
-      .image-app {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        .app-store {
-          width: 230px;
-          height: 91px;
+    }
+    .image-button {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      .app-store {
+        cursor: pointer;
+        width: 200px;
+        height: 51px;
+        margin-right: 15px;
+      }
+      .google-play {
+        cursor: pointer;
+        width: 200px;
+        height: 51px;
+      }
+    }
+  }
+  .content-2 {
+    margin: 0px;
+    width: 100%;
+    height: 363px;
+    background: #FED002;
+    display: flex;
+    align-items: center;
+    .text-content-2 {
+      display: flex;
+      flex-direction: row;
+      gap: 54px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 100%;
+      height: 117px;
+      h2 {
+        font-family: "Platform Jules Light";
+        font-style: normal;
+        color: #1D493D;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 120px;
+        span {
+          font-family: "Platform";
+          font-weight: bold;
         }
-        .google-play {
-          width: 230px;
-          height: 91px;
+      }
+      h1 {
+        color: #1D493D;
+        font-family: 'Platform';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 132.308px;
+        line-height: 132px;
+      }
+      .button-order {
+        cursor: pointer;
+        width: 245px;
+        height: 78px;
+        color: white;
+        background: #1D493D;
+        border-radius: 16px;
+        span {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 47px;
+          text-align: center;
         }
       }
     }

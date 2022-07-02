@@ -1,0 +1,71 @@
+$breakpoint-tablet: 640px;
+$breakpoint-desktop: 768px;
+$breakpoint-large: 1024px;
+
+//phone
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin: auto;
+  .temp {
+    right: 0 !important;
+  }
+  .navigation {
+    //display: none;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: -200px;
+    animation: ease-in;
+    transition: 500ms;
+    z-index: 0;
+    padding: 80px 10px 10px 10px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    gap: 10px;
+    font-weight: bold;
+    color: #1d493d;
+  }
+  .menu {
+    z-index: 1;
+    color: #1d493d;
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto 0;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  //above phone
+  .header {
+    padding: 10px 34px;
+    .navigation {
+      display: flex;
+      position: relative;
+      padding: 0;
+      z-index: 0;
+      margin: auto 0;
+      right: 0;
+      width: fit-content;
+      flex-direction: row;
+      gap: 40px;
+      font-size: 20px;
+      font-weight: 400;
+      font-family: Roboto, Helvetica, sans-serif;
+      a {
+        display: block;
+        margin: auto 0;
+        cursor: pointer;
+        color: #1d493d;
+      }
+    }
+    .menu {
+      display: none;
+    }
+  }
+}
