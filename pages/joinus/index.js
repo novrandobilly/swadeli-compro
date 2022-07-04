@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Header from '../../components/Header/Header'
+import JoinUs from '../../components/Pages/JoinUs/JoinUs';
 
 export default function Home() {
   return (
@@ -10,7 +12,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Join Us</h1>
+        <Header />
+        <JoinUs />
       </main>
     </div>
   );
