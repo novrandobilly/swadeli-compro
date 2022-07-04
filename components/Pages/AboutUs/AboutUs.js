@@ -37,8 +37,11 @@ export default function AboutUs() {
       <div className={styles['container-2']}>
          <div className={styles['title']}>
           <h1>Our Purpose</h1>
-         </div>
-         <h4>Instant Access to Daily Needs <br /><span>Our mission to provide instant access to daily needs means</span></h4>
+        </div>
+        <div className={styles['text-content']}>
+          <h4>Instant Access to Daily Needs</h4>
+          <p>Our mission to provide instant access to daily needs means</p>
+        </div>
          <div className={styles['three-circle']}>
           <div className={styles['option-1']}>
             <div className={styles['circle-1']}>
@@ -64,7 +67,15 @@ export default function AboutUs() {
               <p>Transforming shopping behavior to reduce food waste.</p>
             </div>
           </div>
-         </div>
+        </div>
+        <div className={styles['text-content']}>
+          <h4>Extending Room for Growth</h4>
+          <p>Through our platform, we aim to give more room for growth for you, suppliers, and the environment. Our mission is to empower you to own your time, by providing convenience to your daily life. In the process, we also aspire to extend access for suppliers to reach end-consumers and reduce space used up for markets and parking lots.</p>
+        </div>
+         <div className={styles['text-content']}>
+          <h4>Promoting Sustainability</h4>
+          <p>Through our platform, we aim to give more room for growth for you, suppliers, and the environment. Our mission is to empower you to own your time, by providing convenience to your daily life. In the process, we also aspire to extend access for suppliers to reach end-consumers and reduce space used up for markets and parking lots.</p>
+        </div>
       </div>
     </div>
   )

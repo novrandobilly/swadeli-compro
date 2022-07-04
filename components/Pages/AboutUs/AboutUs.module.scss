@@ -12,8 +12,9 @@
   background-color: #FED002;
   width: 100%;
   height: 1550px;
+  padding: 90px 110px;
   .title {
-    padding: 90px 110px;
+    margin-bottom: 70px;
     h1 {
       font-family: 'Poetsen One Regular';
       font-style: normal;
@@ -93,10 +94,11 @@
 
 .container-2 {
   width: 100%;
-  height: 1892px;
+  height: 1582px;
   background: #F6F4E3;
   padding: 90px 110px;
   .title {
+    margin-bottom: 30px;
     h1 {
       font-family: 'Poetsen One Regular';
       font-style: normal;
@@ -105,16 +107,19 @@
       color: #945200;
     }
   }
-  h4 {
-    margin-top: 31px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 53px;
-    color: #000000;
-    span {
+  .text-content {
+    margin-bottom: 70px;
+    h4 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 45px;
       line-height: 120px;
+      color: #000000;
+    }
+    p {
+      text-align: justify;
+      line-height: 50px;
       font-weight: 400;
       font-size: 30px;
     }
@@ -123,8 +128,8 @@
     display: flex;
     flex-direction: row;
     // justify-content: space-between;
+    margin-bottom: 70px;
     gap: 132px;
-    margin-top: 65px;
     .option-1 {
       display: flex;
       flex-direction: column;
