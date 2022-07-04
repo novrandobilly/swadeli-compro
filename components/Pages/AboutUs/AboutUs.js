@@ -74,7 +74,7 @@ export default function AboutUs() {
         </div>
          <div className={styles['text-content']}>
           <h4>Promoting Sustainability</h4>
-          <p>We seek to put forward sustainability through our platform by promoting sustainable consumption and utilizing eco-friendly packaging.</p>
+          <p>Through our platform, we aim to give more room for growth for you, suppliers, and the environment. Our mission is to empower you to own your time, by providing convenience to your daily life. In the process, we also aspire to extend access for suppliers to reach end-consumers and reduce space used up for markets and parking lots.</p>
         </div>
       </div>
     </div>
