@@ -12,6 +12,7 @@ import bicycleMan from "../../assets/bycycle-man.png";
 import fruits from "../../assets/fruits.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
+import mockup from "../../assets/mockup.png";
 
 const Body = () => {
   return (
@@ -140,13 +141,22 @@ const Body = () => {
           <FiChevronRight className="text-[40px] text-white my-auto" />
         </div>
       </div>
+
       <div className="bg-[#F6F4E3] pb-32">
-        <h1 className="mt-[146px] mb-[90px] text-[70px] text-center ">
+        <h1 className="mt-[105px] mb-[90px] text-[70px] text-center ">
           Opportunities with <span>Swadeli</span>
         </h1>
-        <div className="w-2/3 mx-auto flex flex-row justify-center gap-12">
-          <div className="flex-1">
-            <Image src={bicycleMan} width={594} height={617} />
+        <div className="w-2/3 mx-auto flex flex-row min-w-screen-2xl gap-12">
+          <div className={`flex-1 relative ${styles["bg-bicycle"]}`}>
+            {/* <Image src={bicycleMan} width={594} height={617} /> */}
+            <div className="flex flex-row absolute gap-16 cursor-pointer bottom-16 -right-64">
+              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
+                <HiOutlineArrowNarrowRight className="text-white text-6xl my-auto font-bold" />
+              </div>
+              <span className="text-[26px] my-auto text-[#4C9840]">
+                APPLY NOW
+              </span>
+            </div>
           </div>
           <div className="flex-1">
             <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold">
@@ -156,20 +166,28 @@ const Body = () => {
               Build your career and grow with us! Join our office team or our
               delivery team.
             </p>
-            <div className="flex flex-row mt-9 absolute left-[37rem] gap-16 cursor-pointer">
+            {/* <div className="flex flex-row mt-9 absolute left-[37rem] gap-16 cursor-pointer">
               <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
                 <HiOutlineArrowNarrowRight className="text-white text-6xl my-auto font-bold" />
               </div>
               <span className="text-[26px] my-auto text-[#4C9840]">
                 APPLY NOW
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-[64%] h-[.1px] bg-[#4C9840] mx-auto my-[3rem]"></div>
-        <div className="w-2/3 mx-auto flex flex-row-reverse justify-center gap-12">
-          <div className="flex-1">
-            <Image src={fruits} width={594} height={617} />
+        <div className="w-2/3 mx-auto flex flex-row-reverse min-w-screen-2xl gap-12">
+          <div className={`flex-1 relative ${styles["bg-fruits"]}`}>
+            {/* <Image src={fruits} width={594} height={617} /> */}
+            <div className="flex flex-row-reverse mt-9 absolute bottom-16 -left-64 gap-16 cursor-pointer">
+              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
+                <HiOutlineArrowNarrowLeft className="text-white text-6xl my-auto font-bold" />
+              </div>
+              <span className="text-[26px] my-auto text-[#4C9840]">
+                APPLY NOW
+              </span>
+            </div>
           </div>
           <div className="flex-1">
             <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right">
@@ -179,15 +197,22 @@ const Body = () => {
               Expand your reach with us! Swadeli invites brands to collaborate
               as partners.
             </p>
-            <div className="flex flex-row-reverse mt-9 absolute left-[28rem] gap-16 cursor-pointer">
-              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
-                <HiOutlineArrowNarrowLeft className="text-white text-6xl my-auto font-bold" />
-              </div>
-              <span className="text-[26px] my-auto text-[#4C9840]">
-                APPLY NOW
-              </span>
-            </div>
           </div>
+        </div>
+      </div>
+
+      <div className={`${styles["bg-fruit-red"]} mb-32`}>
+        <div className="container mx-auto px-[60px] py-[120px] relative">
+          <h1 className="text-[70px] w-1/2 leading-[5rem]">
+            Need your <br /> daily essentials in <span>15 Minutes?</span>
+          </h1>
+          <div className="flex flex-row gap-5 mt-16">
+            <Image src={appStore} width={200} height={60} />
+            <Image src={googlePlay} width={200} height={60} />
+          </div>
+          <div
+            className={`${styles["bg-mockup"]} absolute right-0 -bottom-40 w-[300px] h-[600px] `}
+          ></div>
         </div>
       </div>
     </div>
