@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Header from '../../components/Header/Header';
+import Partnership from '../../components/Pages/JoinUs/Partnership';
+import Footer from '../../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -13,7 +16,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Partnership</h1>
+        <Header />
+        <Partnership />
+        <Footer />
       </main>
     </div>
   );
