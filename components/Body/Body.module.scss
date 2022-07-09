@@ -1,12 +1,25 @@
 @font-face {
-  font-family: 'Platform';
-  src: url('../../assets/font/Platform-Regular.ttf');
+  font-family: "Platform";
+  src: url("../../assets/font/Platform-Regular.ttf");
 }
 @font-face {
-  font-family: 'Platform-BoldItalic';
-  src: url('../../assets/font/Platform-BoldItalic.ttf');
+  font-family: "Platform-BoldItalic";
+  src: url("../../assets/font/Platform-BoldItalic.ttf");
 }
-@font-face {font-family: "Platform Jules Light"; src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot"); src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff") format("woff"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.svg#Platform Jules Light") format("svg"); }
+@font-face {
+  font-family: "Platform Jules Light";
+  src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot");
+  src: url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.svg#Platform Jules Light")
+      format("svg");
+}
 .body {
   display: flex;
   flex-direction: column;
@@ -33,7 +46,7 @@
         font-family: "Platform";
         font-weight: 400;
         font-style: normal;
-        color: #E5E5E5;
+        color: #e5e5e5;
         font-size: 80.1932px;
         line-height: 108px;
         span {
@@ -82,7 +95,7 @@
       h2 {
         font-family: "Platform Jules Light";
         font-style: normal;
-        color: #1D493D;
+        color: #1d493d;
         font-weight: 400;
         font-size: 45px;
         line-height: 120px;
@@ -92,8 +105,8 @@
         }
       }
       h1 {
-        color: #1D493D;
-        font-family: 'Platform';
+        color: #1d493d;
+        font-family: "Platform";
         font-style: normal;
         font-weight: 400;
         font-size: 132.308px;
@@ -104,10 +117,10 @@
         width: 245px;
         height: 78px;
         color: white;
-        background: #1D493D;
+        background: #1d493d;
         border-radius: 16px;
         span {
-          font-family: 'Roboto';
+          font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
           font-size: 28px;
@@ -121,148 +134,174 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-      .box-1 {
-        display: flex;
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background: #FFFFFF;
-        .text-box-1 {
-          margin: auto 0;
-          h3 {
-            margin: 0;
-            font-family: 'Platform';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 58.8665px;
-            text-align: center;
-            color: #56874D;
-            margin-bottom: 10px;
-          }
-          p {
-            margin: 0;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 29.7912px;
-            text-align: center;
-            color: #565656;
-          }
+    .box-1 {
+      display: flex;
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background: #ffffff;
+      .text-box-1 {
+        margin: auto 0;
+        h3 {
+          margin: 0;
+          font-family: "Platform";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 58.8665px;
+          text-align: center;
+          color: #56874d;
+          margin-bottom: 10px;
+        }
+        p {
+          margin: 0;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 29.7912px;
+          text-align: center;
+          color: #565656;
         }
       }
-      .box-2 {
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background-image: url("../../assets/eggs.png");
-      }
-      .box-3 {
-        display: flex;
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background: #FFFFFF;
-        .text-box-2 {
-          margin: auto 0;
-          h3 {
-            margin: 0;
-            font-family: 'Platform';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 58.8665px;
-            text-align: center;
-            color: #805219;
-            margin-bottom: 10px;
-          }
-          p {
-            margin: 0;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 29.7912px;
-            text-align: center;
-            color: #565656;
-          }
+    }
+    .box-2 {
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background-image: url("../../assets/eggs.png");
+    }
+    .box-3 {
+      display: flex;
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background: #ffffff;
+      .text-box-2 {
+        margin: auto 0;
+        h3 {
+          margin: 0;
+          font-family: "Platform";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 58.8665px;
+          text-align: center;
+          color: #805219;
+          margin-bottom: 10px;
+        }
+        p {
+          margin: 0;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 29.7912px;
+          text-align: center;
+          color: #565656;
         }
       }
-      .box-4 {
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background-size: cover;
-        background-image: url("../../assets/meat.png");
-      }
-      .box-5 {
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background-size: cover;
-        background-image: url("../../assets/fruits.png");
-      }
-       .box-6 {
-        display: flex;
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background: #FFFFFF;
-        .text-box-3 {
-          margin: auto 0;
-          h3 {
-            margin: 0;
-            font-family: 'Platform';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 58.8665px;
-            text-align: center;
-            color: #1D493D;
-            margin-bottom: 10px;
-          }
-          p {
-            margin: 0;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 29.7912px;
-            text-align: center;
-            color: #565656;
-          }
+    }
+    .box-4 {
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background-size: cover;
+      background-image: url("../../assets/meat.png");
+    }
+    .box-5 {
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background-size: cover;
+      background-image: url("../../assets/fruits.png");
+    }
+    .box-6 {
+      display: flex;
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background: #ffffff;
+      .text-box-3 {
+        margin: auto 0;
+        h3 {
+          margin: 0;
+          font-family: "Platform";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 58.8665px;
+          text-align: center;
+          color: #1d493d;
+          margin-bottom: 10px;
+        }
+        p {
+          margin: 0;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 29.7912px;
+          text-align: center;
+          color: #565656;
         }
       }
-       .box-7 {
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background-size: cover;
-        background-image: url("../../assets/red-meat.png");
-      }
-       .box-8 {
-        display: flex;
-        flex: 1/4;
-        width: 25%;
-        height: 384px;
-        background: #FFFFFF;
-        .text-box-4 {
-          margin: auto 0;
-          h3 {
-            margin: 0;
-            font-family: 'Platform';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 58.8665px;
-            text-align: center;
-            color: #D24523;
-            margin-bottom: 10px;
-          }
-          p {
-            margin: 0;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 29.7912px;
-            text-align: center;
-            color: #565656;
-          }
+    }
+    .box-7 {
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background-size: cover;
+      background-image: url("../../assets/red-meat.png");
+    }
+    .box-8 {
+      display: flex;
+      flex: 1/4;
+      width: 25%;
+      height: 384px;
+      background: #ffffff;
+      .text-box-4 {
+        margin: auto 0;
+        h3 {
+          margin: 0;
+          font-family: "Platform";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 58.8665px;
+          text-align: center;
+          color: #d24523;
+          margin-bottom: 10px;
+        }
+        p {
+          margin: 0;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 29.7912px;
+          text-align: center;
+          color: #565656;
         }
       }
+    }
+  }
+  .bg-bicycle {
+    background-image: url(../../assets/bycycle-man.png);
+    max-width: 594px;
+    height: 500px;
+    max-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-fruits {
+    background-image: url(../../assets/fruits.png);
+    max-width: 594px;
+    height: 500px;
+    max-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-fruit-red {
+    background-image: url(../../assets/background-red.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-mockup {
+    background-image: url(../../assets/mockup.png);
+    background-size: cover;
+    background-position: center;
   }
 }
