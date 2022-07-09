@@ -3,10 +3,81 @@ import Image from "next/image";
 import png1 from "../../../assets/png-joinus-1.png";
 import png2 from "../../../assets/png-joinus-2.png";
 import png3 from "../../../assets/png-joinus-3.png";
+import greenApply from "../../../assets/green-apple.png";
 
 function JoinUs() {
   return (
     <div className={styles['container']}>
+      <div className={styles['title']}>
+        <h1>Join us</h1>
+      </div>
+      <div className={styles['sub-title']}>
+        <div className={styles['sub-title-image']}>
+          <Image
+            src={greenApply}
+          />
+        </div>
+        <div className={styles['sub-title-text']}>
+          <h6>Build your career and grow with us!</h6>
+          <p>Be a part of our office team or delivery team.</p>
+        </div>
+      </div>
+      <div className={styles['form-join-us']}>
+        <div className={styles['input-field']}>
+          <label>Full name</label>
+          <input type="text" name='fullName'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Email address</label>
+          <input type='email' name='emailAddress'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Phone number</label>
+          <input type='number' name='phoneNumber'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Current address</label>
+          <input type='text' name='currentAddress'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Latest education</label>
+          <select>
+            <option>S1</option>
+            <option>S2</option>
+            <option>D1/D3</option>
+            <option>High School</option>
+          </select>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Current employer</label>
+          <input type='text' name='currentEmployee'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Current role</label>
+          <input type='text' name='currentRole'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Notice period</label>
+          <input type='text' name='noticePeriod'/>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Position applying for</label>
+          <select>
+            <option>Marketing</option>
+          </select>
+        </div>
+        <div className={styles['input-field']}>
+          <label>Attach CV</label>
+          <input type='file' name='attachPeriod'/>
+        </div>
+         <div className={styles['input-field']}>
+          <label>Linkedin profile</label>
+          <input type='text' name='linkedinProfile'/>
+        </div>
+        <div className={styles['btn-submt']}>
+          <button>Submit</button>
+        </div>
+      </div>
       <div>
         <div className={styles['image-1']}>
           <Image

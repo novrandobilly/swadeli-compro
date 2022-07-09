@@ -14,6 +14,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import { HiOutlineArrowNarrowLeft } from 'react-icons/hi';
 
 const Body = () => {
+  
   return (
     <div className={styles['body']}>
       <div className={styles['content-1']}>
