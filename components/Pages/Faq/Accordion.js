@@ -8,55 +8,55 @@ export default function Accordion() {
       id: 1,
       question: "How late do you deliver?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "Currently we deliver from 9.00 AM to 9.00 PM.",
     },
     {
       id: 2,
       question: "Why Swadeli?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "We know you’re busy, so we make shopping effortless. Whatever you need. Whenever. Delivered to you in 15 minutes.",
     },
     {
       id: 3,
       question: "How do I buy from Swadeli?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "Simply create an account using the Swadeli app, input your address, choose your items and pay. We’ll be at your door with your needs in 15 minutes!",
     },
     {
       id: 4,
       question: "How do I pay?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "We utilize an in-app payment gateway. You can choose the payment method of your choice!",
     },
     {
       id: 5,
       question: "Is the product quality guaranteed?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "We ensure the quality of our products by assigning a team to do routine quality checks. If our product quality does not meet your expectation, reach out to our Customer Service WhatsApp (+62 8118 9115)",
     },
     {
       id: 6,
       question: "Does Swadeli deliver to my location?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "Check our current area coverage here. Let us know where we should go next!",
     },
     {
       id: 7,
       question: "Can I cancel / change an order?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "For now, paid ongoing orders cannot be canceled / changed.",
     },
     {
       id: 8,
       question: "Can I refund items?",
       answer:
-        "Through our platform, we aim to give more room for growth for you, suppliers, and the environment. Our mission is to empower you to own your time, by providing convenience to your daily life. In the process, we also aspire to extend access for suppliers to reach end-consumers and reduce space used up for markets and parking lots.",
+        "We process every complaint you have regarding our items. Send us a picture of proof within 1x24 hours upon your order completion to our Customer Service WhatsApp (+62 8118 9115)",
     },
     {
       id: 9,
       question: "How do I track my orders?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "For now, addresses inputted for paid ongoing orders cannot be changed.",
     },
     {
       id: 10,
@@ -68,7 +68,7 @@ export default function Accordion() {
       id: 11,
       question: "Collapsed accordion",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare urna vitae dolor blandit gravida. Sed venenatis quam nec congue commodo. Ut semper justo sed enim tempor gravida. Quisque auctor.",
+        "We’re always excited to partner up with you! For more information reach out to us at hello@swadeli.id",
     },
   ];
   return (
