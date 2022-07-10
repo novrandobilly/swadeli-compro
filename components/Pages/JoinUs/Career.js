@@ -82,8 +82,8 @@ const Career = () => {
       <div>
         <div className={styles['image-1']}>
           <Image
-            width={480}
-            height={850}
+            // width={480}
+            // height={850}
             src={png1}
           />
         </div>
