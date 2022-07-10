@@ -1,4 +1,7 @@
-import Head from 'next/head';
+import Head from "next/head";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import TermsAndConditions from "../../components/Pages/TnC/TermsAndConditions";
 
 export default function Home() {
   return (
@@ -10,7 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Terms &amp; Conditions</h1>
+        <Header />
+        <TermsAndConditions />
+        <Footer />
       </main>
     </div>
   );
