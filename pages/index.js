@@ -3,6 +3,8 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import styles from "./Home.module.scss";
 import Body from "../components/Body/Body";
+import { useState } from "react";
+import Modal from "../components/Modal/modal";
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
         <Body />
         <Footer />
       </main>
+      {/* <Header />
+          <Modal />
+          <Footer /> */}
     </div>
   );
 }
