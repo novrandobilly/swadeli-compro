@@ -26,19 +26,19 @@ const Career = () => {
       <div className={styles['form-join-us']}>
         <div className={styles['input-field']}>
           <label>Full name</label>
-          <input type="text" name='fullName'/>
+          <input type="text" name='fullName' placeholder='Your Name (based on KTP)'/>
         </div>
         <div className={styles['input-field']}>
           <label>Email address</label>
-          <input type='email' name='emailAddress'/>
+          <input type='email' name='emailAddress' placeholder='Name@email.com'/>
         </div>
         <div className={styles['input-field']}>
           <label>Phone number</label>
-          <input type='number' name='phoneNumber'/>
+          <input type='number' name='phoneNumber' placeholder='081770XXXX'/>
         </div>
         <div className={styles['input-field']}>
           <label>Current address</label>
-          <input type='text' name='currentAddress'/>
+          <input type='text' name='currentAddress' placeholder='Your address'/>
         </div>
         <div className={styles['input-field']}>
           <label>Latest education</label>
@@ -51,15 +51,15 @@ const Career = () => {
         </div>
         <div className={styles['input-field']}>
           <label>Current employer</label>
-          <input type='text' name='currentEmployee'/>
+          <input type='text' name='currentEmployee' placeholder='Company Name'/>
         </div>
         <div className={styles['input-field']}>
           <label>Current role</label>
-          <input type='text' name='currentRole'/>
+          <input type='text' name='currentRole' placeholder='Role'/>
         </div>
         <div className={styles['input-field']}>
           <label>Notice period</label>
-          <input type='text' name='noticePeriod'/>
+          <input type='text' name='noticePeriod' placeholder='Notice Period'/>
         </div>
         <div className={styles['input-field']}>
           <label>Position applying for</label>
@@ -73,7 +73,7 @@ const Career = () => {
         </div>
          <div className={styles['input-field']}>
           <label>Linkedin profile</label>
-          <input type='text' name='linkedinProfile'/>
+          <input type='text' name='linkedinProfile' placeholder='www.linkedin.com/janedoe'/>
         </div>
         <div className={styles['btn-submt']}>
           <button>Submit</button>
