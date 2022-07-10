@@ -1,5 +1,7 @@
-import Head from 'next/head';
-
+import Head from "next/head";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import PrivacyPolicy from "../../components/Pages/PrivacyPolicy/PrivacyPolicy";
 export default function Home() {
   return (
     <div>
@@ -10,7 +12,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Privacy Policy</h1>
+        <Header />
+        <PrivacyPolicy />
+        <Footer />
       </main>
     </div>
   );

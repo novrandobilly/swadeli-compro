@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./Body.module.scss";
 import appleImage from "../../assets/apple-asset.png";
@@ -13,11 +13,15 @@ import fruits from "../../assets/fruits.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 import mockup from "../../assets/mockup.png";
+import Modal from "../Modal/modal";
 
 const Body = () => {
-  
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className={styles["body"]}>
+      <div className={`${showModal ? "block" : "hidden"}`}>
+        <Modal setShowModal={setShowModal} />
+      </div>
       <div className={styles["content-1"]}>
         <div className={styles["apple-image"]}>
           <Image src={appleImage} />
@@ -135,7 +139,10 @@ const Body = () => {
         <p className="mt-[131px] text-[#476332] text-[26px] text-center mb-[13px]">
           We don't deliver to your area yet?
         </p>
-        <div className="w-[975px] cursor-pointer h-[118px] bg-[#1D493D] px-[56px] rounded-[13px] mx-auto flex flex-row justify-between">
+        <div
+          onClick={() => setShowModal(true)}
+          className="w-[975px] cursor-pointer h-[118px] bg-[#1D493D] px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
+        >
           <span className="text-[40px] text-white my-auto">
             Let us know where you'd like us to be!
           </span>
