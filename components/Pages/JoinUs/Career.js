@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./Career.module.scss";
-import Image from "next/image";
-import png1 from "../../../assets/png-joinus-1.png";
-import png2 from "../../../assets/png-joinus-2.png";
-import png3 from "../../../assets/png-joinus-3.png";
-import greenApply from "../../../assets/green-apple.png";
+import styles from './Career.module.scss';
+import Image from 'next/image';
+import png1 from '../../../assets/png-joinus-1.png';
+import png2 from '../../../assets/png-joinus-2.png';
+import png3 from '../../../assets/png-joinus-3.png';
+import greenApple from '../../../assets/green-apple.png';
 
 const Career = () => {
   return (
@@ -14,9 +14,7 @@ const Career = () => {
       </div>
       <div className={styles['sub-title']}>
         <div className={styles['sub-title-image']}>
-          <Image
-            src={greenApply}
-          />
+          <Image src={greenApple} alt="Green Apple" />
         </div>
         <div className={styles['sub-title-text']}>
           <h6>Build your career and grow with us!</h6>
@@ -26,19 +24,19 @@ const Career = () => {
       <div className={styles['form-join-us']}>
         <div className={styles['input-field']}>
           <label>Full name</label>
-          <input type="text" name='fullName' placeholder='Your Name (based on KTP)'/>
+          <input type="text" name="fullName" placeholder="Your Name (based on KTP)" />
         </div>
         <div className={styles['input-field']}>
           <label>Email address</label>
-          <input type='email' name='emailAddress' placeholder='Name@email.com'/>
+          <input type="email" name="emailAddress" placeholder="Name@email.com" />
         </div>
         <div className={styles['input-field']}>
           <label>Phone number</label>
-          <input type='number' name='phoneNumber' placeholder='081770XXXX'/>
+          <input type="number" name="phoneNumber" placeholder="081770XXXX" />
         </div>
         <div className={styles['input-field']}>
           <label>Current address</label>
-          <input type='text' name='currentAddress' placeholder='Your address'/>
+          <input type="text" name="currentAddress" placeholder="Your address" />
         </div>
         <div className={styles['input-field']}>
           <label>Latest education</label>
@@ -51,15 +49,15 @@ const Career = () => {
         </div>
         <div className={styles['input-field']}>
           <label>Current employer</label>
-          <input type='text' name='currentEmployee' placeholder='Company Name'/>
+          <input type="text" name="currentEmployee" placeholder="Company Name" />
         </div>
         <div className={styles['input-field']}>
           <label>Current role</label>
-          <input type='text' name='currentRole' placeholder='Role'/>
+          <input type="text" name="currentRole" placeholder="Role" />
         </div>
         <div className={styles['input-field']}>
           <label>Notice period</label>
-          <input type='text' name='noticePeriod' placeholder='Notice Period'/>
+          <input type="text" name="noticePeriod" placeholder="Notice Period" />
         </div>
         <div className={styles['input-field']}>
           <label>Position applying for</label>
@@ -69,11 +67,11 @@ const Career = () => {
         </div>
         <div className={styles['input-field']}>
           <label>Attach CV</label>
-          <input type='file' name='attachPeriod'/>
+          <input type="file" name="attachPeriod" />
         </div>
-         <div className={styles['input-field']}>
+        <div className={styles['input-field']}>
           <label>Linkedin profile</label>
-          <input type='text' name='linkedinProfile' placeholder='www.linkedin.com/janedoe'/>
+          <input type="text" name="linkedinProfile" placeholder="www.linkedin.com/janedoe" />
         </div>
         <div className={styles['btn-submt']}>
           <button>Submit</button>
@@ -85,25 +83,18 @@ const Career = () => {
             // width={480}
             // height={850}
             src={png1}
+            alt="Join us"
           />
         </div>
         <div className={styles['image-2']}>
-          <Image
-            width={920}
-            height={751}
-            src={png2}
-          />
+          <Image width={920} height={751} src={png2} alt="PNG2" />
         </div>
         <div className={styles['image-3']}>
-          <Image
-            width={600}
-            height={431}
-            src={png3}
-          />
+          <Image width={600} height={431} src={png3} alt="PNG3" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Career
+export default Career;

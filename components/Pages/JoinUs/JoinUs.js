@@ -1,9 +1,9 @@
-import styles from "./JoinUs.module.scss";
-import Image from "next/image";
-import brokoli from "../../../assets/brokoli.png";
-import fruits2 from "../../../assets/joinus-fruit.png";
-import fruits3 from "../../../assets/onion.png";
-import Link from 'next/link'
+import styles from './JoinUs.module.scss';
+import Image from 'next/image';
+import brokoli from '../../../assets/brokoli.png';
+import fruits2 from '../../../assets/joinus-fruit.png';
+import fruits3 from '../../../assets/onion.png';
+import Link from 'next/link';
 
 function JoinUs() {
   return (
@@ -25,22 +25,16 @@ function JoinUs() {
         {/* <button type='button'>Apply now</button> */}
       </div>
       <div className={styles['bckground-img']}>
-        <Image
-          src={brokoli}
-        />
+        <Image src={brokoli} alt="Brokoli" />
       </div>
       <div className={styles['bckground-img-2']}>
-        <Image
-          src={fruits2}
-        />
+        <Image src={fruits2} alt="Fruits 2" />
       </div>
       <div className={styles['bckground-img-3']}>
-        <Image
-          src={fruits3}
-        />
+        <Image src={fruits3} alt="Fruits 3" />
       </div>
     </div>
-  )
+  );
 }
 
-export default JoinUs
+export default JoinUs;

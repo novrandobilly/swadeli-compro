@@ -1,20 +1,18 @@
-import React from "react";
-import { GrClose } from "react-icons/gr";
+import React from 'react';
+import { GrClose } from 'react-icons/gr';
 export default function Modal({ setShowModal }) {
   const handlePopUp = (e) => {
-    if (e.target.id === "container" || e.target.id === "close")
-      setShowModal(false);
+    if (e.target.id === 'container' || e.target.id === 'close') setShowModal(false);
   };
   return (
     <div
       id="container"
       onClick={handlePopUp}
-      className="backdrop-blur-sm bg-white/30 fixed inset-0 z-20 flex justify-center items-center flex-col"
-    >
-      <div className="bg-white w-2/4 h-2/4 rounded-t-lg p-10 relative">
-        <GrClose id="close" className="absolute right-4 top-4 cursor-pointer" />
+      className="fixed inset-0 z-20 flex flex-col items-center justify-center backdrop-blur-sm bg-white/30">
+      <div className="relative w-2/4 p-10 bg-white rounded-t-lg h-2/4">
+        <GrClose id="close" className="absolute cursor-pointer right-4 top-4" />
         <div className="flex flex-col mt-3">
-          <label for="name" className="font-semibold mb-1">
+          <label htmlFor="name" className="mb-1 font-semibold">
             Name
           </label>
           <input
@@ -25,7 +23,7 @@ export default function Modal({ setShowModal }) {
           />
         </div>
         <div className="flex flex-col mt-3">
-          <label for="email" className="font-semibold mb-1">
+          <label htmlFor="email" className="mb-1 font-semibold">
             Email
           </label>
           <input
@@ -36,7 +34,7 @@ export default function Modal({ setShowModal }) {
           />
         </div>
         <div className="flex flex-col mt-3">
-          <label for="location" className="font-semibold mb-1">
+          <label htmlFor="location" className="mb-1 font-semibold">
             Location
           </label>
           <input
