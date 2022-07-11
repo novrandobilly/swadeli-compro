@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Platform: ["Platform", "sans-serif"],
+        PoetsenOne: ["PoetsenOne", "sans-serif"], // Ensure fonts with spaces have " " surrounding it.
+      },
+    },
   },
   plugins: [],
 };
