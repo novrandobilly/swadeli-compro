@@ -13,7 +13,9 @@ const Header = () => {
   const [active, setActive] = useState(false);
   return (
     <div className={`${styles.header}`}>
-      <Image src={Logo} width={140} height={33} className={styles['logo']} alt="logo" />
+      <Link href='/'>
+        <Image src={Logo} width={140} height={33} className={styles['logo']} alt="logo" />
+      </Link>
       <nav className={`${styles['navigation']} ${active ? styles.temp : ''}`}>
         <Link href="/joinus">
           <a>Join us</a>
