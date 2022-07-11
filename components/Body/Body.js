@@ -199,7 +199,7 @@ const Body = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right">
+            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right   ">
               Collaborate with us
             </h1>
             <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12 text-right">
@@ -211,18 +211,18 @@ const Body = () => {
       </div>
 
       <div className={`${styles["bg-fruit-red"]} mb-32`}>
-        <div className="container mx-auto px-[60px] py-[50px] lg:py-[120px]  relative">
-          <h1 className="text-[50px] lg:text-[70px] w-full lg:w-1/2 leading-[5rem] text-white">
+        <div className="container mx-auto px-[40px] lg:px-[60px] py-[50px] lg:py-[120px]  relative">
+          <h1 className="text-[40px] lg:text-[70px] w-full lg:w-1/2 leading-[3rem] lg:leading-[5rem] text-white ">
             Need your <br className="hidden lg:block" /> daily essentials in
             <br />
             <span className="font-bold">15 Minutes?</span>
           </h1>
-          <div className="flex flex-col lg:flex-row gap-5 mt-16 w-[35%]">
+          <div className="flex flex-col lg:flex-row gap-5 mt-16 w-[35%] md:w-[30%]">
             <Image src={appStore} width={200} height={60} alt="Apple Store" />
             <Image src={googlePlay} width={200} height={60} alt="Google Play" />
           </div>
           <div
-            className={`${styles["bg-mockup"]} absolute right-24 lg:right-0 -bottom-40 lg:-bottom-40 w-[220px] h-[440px] lg:w-[300px] lg:h-[600px] `}
+            className={`${styles["bg-mockup"]} absolute right-0 md:right-10 -bottom-40 lg:-bottom-40 w-[180px] h-[360px] lg:w-[300px] lg:h-[600px] `}
           ></div>
         </div>
       </div>

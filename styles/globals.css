@@ -1,5 +1,10 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+  font-family: "PoetsenOne";
+  src: local("PoetsenOne"),
+    url(../assets/font/PoetsenOne-Regular.woff) format("woff");
+}
 @tailwind utilities;
 html,
 body {
