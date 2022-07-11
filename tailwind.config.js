@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Platform: ["Platform", "sans-serif"],
-        // Ensure fonts with spaces have " " surrounding it.
+        PoetsenOne: ["PoetsenOne", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],// Ensure fonts with spaces have " " surrounding it.
       },
     },
   },

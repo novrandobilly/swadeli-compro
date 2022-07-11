@@ -97,53 +97,53 @@ const Body = () => {
         </div>
       </div>
       <div className="bg-[#FED002] pb-[70px]">
-        <h1 className="font-normal text-[80px] text-[#1D493D] text-center mt-[77px] mb-[50px]">
+        <h1 className="font-normal font-Platform text-[80px] text-[#1D493D] text-center mt-[77px] mb-[50px]">
           Where We Deliver
         </h1>
         <div className="flex flex-row justify-evenly">
           <div className="flex flex-col justify-between ">
             <GoLocation className="w-[61px] h-[74px] text-[#1D493D] mx-auto" />
-            <p className="text-center text-[40px] text-[#1D493D]">
+            <p className="text-center text-[40px] text-[#1D493D] font-Roboto">
               Kebayoran Lama
             </p>
           </div>
           <div className="flex flex-col justify-between">
-            <div className="w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="text-center text-[40px] text-[#EEB802]">
+            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">
               Duren Sawit
             </p>
           </div>
           <div className="flex flex-col justify-between">
-            <div className="w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
             <p className="text-center text-[40px] text-[#EEB802]">Cibubur</p>
           </div>
           <div className="flex flex-col justify-between">
-            <div className="w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="text-center text-[40px] text-[#EEB802]">
+            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">
               Pondok Indah
             </p>
           </div>
           <div className="flex flex-col justify-between">
-            <div className="w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="text-center text-[40px] text-[#EEB802]">Bintaro</p>
+            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">Bintaro</p>
           </div>
         </div>
-        <p className="mt-[131px] text-[#476332] text-[26px] text-center mb-[13px]">
+        <p className="font-Roboto mt-[131px] text-[#476332] text-[26px] text-center mb-[13px]">
           We don&apos;t deliver to your area yet?
         </p>
         <div
           onClick={() => setShowModal(true)}
           className="w-[975px] cursor-pointer h-[118px] bg-[#1D493D] px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
         >
-          <span className="text-[40px] text-white my-auto">
+          <span className="text-[40px] text-white my-auto font-Roboto">
             Let us know where you&apos;d like us to be!
           </span>
           <FiChevronRight className="text-[40px] text-white my-auto" />
@@ -162,16 +162,16 @@ const Body = () => {
               <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
                 <HiOutlineArrowNarrowRight className="my-auto text-6xl font-bold text-white" />
               </div>
-              <span className="text-[26px] my-auto text-[#4C9840]">
+              <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
                 APPLY NOW
               </span>
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold">
+            <h1 className="font-Platform text-[60px] leading-[4rem] text-[#4C9840] font-semibold">
               Be part of the dream team
             </h1>
-            <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12">
+            <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12 font-Roboto font-normal">
               Build your career and grow with us! Join our office team or our
               delivery team.
             </p>
@@ -193,13 +193,13 @@ const Body = () => {
               <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
                 <HiOutlineArrowNarrowLeft className="my-auto text-6xl font-bold text-white" />
               </div>
-              <span className="text-[26px] my-auto text-[#4C9840]">
+              <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
                 APPLY NOW
               </span>
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right   ">
+            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right font-Platform">
               Collaborate with us
             </h1>
             <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12 text-right">
@@ -212,7 +212,7 @@ const Body = () => {
 
       <div className={`${styles["bg-fruit-red"]} mb-32`}>
         <div className="container mx-auto px-[40px] lg:px-[60px] py-[50px] lg:py-[120px]  relative">
-          <h1 className="text-[40px] lg:text-[70px] w-full lg:w-1/2 leading-[3rem] lg:leading-[5rem] text-white ">
+          <h1 className="text-[40px] lg:text-[70px] w-full lg:w-1/2 leading-[3rem] lg:leading-[5rem] text-white font-Platform">
             Need your <br className="hidden lg:block" /> daily essentials in
             <br />
             <span className="font-bold">15 Minutes?</span>
