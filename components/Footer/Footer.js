@@ -1,21 +1,27 @@
-import Link from 'next/link';
-import React from 'react';
-import Logo from '../../assets/Logo.png';
-import styles from './Footer.module.scss';
-import Image from 'next/image';
-import appStore from '../../assets/app-store.png';
-import googlePlay from '../../assets/google-play.png';
+import Link from "next/link";
+import React from "react";
+import Logo from "../../assets/Logo.png";
+import styles from "./Footer.module.scss";
+import Image from "next/image";
+import appStore from "../../assets/app-store.png";
+import googlePlay from "../../assets/google-play.png";
 
 const Footer = () => {
   return (
     <footer className="bottom-0">
-      <div className="container flex flex-row py-10 mx-auto justify-evenly">
+      <div className="container flex flex-col lg:flex-row gap-8 lg:gap-0 py-10 mx-auto justify-evenly px-7 lg:px-0">
         <div>
-          <Image src={Logo} width={140} height={33} className="cursor-pointer" alt="Logo" />
+          <Image
+            src={Logo}
+            width={140}
+            height={33}
+            className="cursor-pointer"
+            alt="Logo"
+          />
         </div>
-        <div>
+        <div className="mt-4 lg:mt-0">
           <h1 className="font-semibold text-[20px] mb-2">About Swadeli</h1>
-          <div className="flex flex-row gap-16">
+          <div className="flex flex-col lg:flex-row lg:gap-16">
             <div className="flex flex-col ">
               <Link href="/">
                 <a>Home</a>
@@ -60,7 +66,8 @@ const Footer = () => {
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z"
                   fill="#C8C8C8"
@@ -78,7 +85,8 @@ const Footer = () => {
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z"
                   fill="#C8C8C8"
@@ -104,7 +112,8 @@ const Footer = () => {
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z"
                   fill="#C8C8C8"
@@ -119,9 +128,21 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-semibold text-[20px] mb-2">DOWNLOAD</h1>
-          <div className="flex flex-col gap-1">
-            <Image src={appStore} width={140} height={45} className="cursor-pointer" alt="Apple Store" />
-            <Image src={googlePlay} width={140} height={45} className="cursor-pointer" alt="Google Play" />
+          <div className="flex flex-col gap-1 w-44">
+            <Image
+              src={appStore}
+              width={140}
+              height={45}
+              className="cursor-pointer"
+              alt="Apple Store"
+            />
+            <Image
+              src={googlePlay}
+              width={140}
+              height={45}
+              className="cursor-pointer"
+              alt="Google Play"
+            />
           </div>
         </div>
       </div>
