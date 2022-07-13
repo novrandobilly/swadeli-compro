@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         Platform: ["Platform", "sans-serif"],
         PoetsenOne: ["PoetsenOne", "sans-serif"],
+        Manrope: ["Manrope", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],// Ensure fonts with spaces have " " surrounding it.
       },
     },

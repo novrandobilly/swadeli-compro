@@ -26,10 +26,10 @@ export default function Home() {
           </div>
           <div className="container mx-auto px-28 z-10">
             <div className="flex flex-row justify-center gap-20 ">
-              <h1 className="text-[160px] text-[#1D493D] font-extrabold my-auto">
+              <h1 className="text-[160px] text-[#1D493D] font-extrabold my-auto font-PoetsenOne">
                 FAQ
               </h1>
-              <p className="text-[20px] text-[#899E90] my-auto">
+              <p className="text-[20px] text-[#899E90] my-auto font-Roboto">
                 Need help? <br /> Find the answers to some <br /> frequently
                 asked questions here
               </p>

@@ -20,34 +20,34 @@ const Footer = () => {
           />
         </div>
         <div className="mt-4 lg:mt-0">
-          <h1 className="font-semibold text-[20px] mb-2">About Swadeli</h1>
+          <h1 className="font-semibold text-[20px] mb-2 font-Platform">About Swadeli</h1>
           <div className="flex flex-col lg:flex-row lg:gap-16">
             <div className="flex flex-col ">
               <Link href="/">
-                <a>Home</a>
+                <a className="font-Roboto">Home</a>
               </Link>
               <Link href="/">
-                <a>Careers</a>
+                <a className="font-Roboto">Careers</a>
               </Link>
               <Link href="/">
-                <a>Partnerships</a>
+                <a className="font-Roboto">Partnerships</a>
               </Link>
               <Link href="/">
-                <a>Delivery Areas</a>
+                <a className="font-Roboto">Delivery Areas</a>
               </Link>
             </div>
             <div className="flex flex-col ">
               <Link href="/terms_conditions">
-                <a>Terms & Conditions</a>
+                <a className="font-Roboto">Terms & Conditions</a>
               </Link>
               <Link href="/privacy_policy">
-                <a>Privacy Policy</a>
+                <a className="font-Roboto">Privacy Policy</a>
               </Link>
               <Link href="/">
-                <a>FAQ</a>
+                <a className="font-Roboto">FAQ</a>
               </Link>
               <Link href="/">
-                <a>Contact us</a>
+                <a className="font-Platform">Contact us</a>
               </Link>
             </div>
           </div>
@@ -55,8 +55,8 @@ const Footer = () => {
         <div>
           <h1 className="font-semibold text-[20px] mb-2">CONTACT US</h1>
           <div>
-            <p>hello@swadeli.id</p>
-            <p>+62 812 8118 9115</p>
+            <p className="font-Roboto">hello@swadeli.id</p>
+            <p className="font-Roboto">+62 812 8118 9115</p>
           </div>
           <div className="flex flex-row gap-2 mt-2">
             <Link href="/">
@@ -127,7 +127,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1 className="font-semibold text-[20px] mb-2">DOWNLOAD</h1>
+          <h1 className="font-semibold text-[20px] mb-2 font-Platform">DOWNLOAD</h1>
           <div className="flex flex-col gap-1 w-44">
             <Image
               src={appStore}
@@ -147,7 +147,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-4 bg-[#FED002]">
-        <p className="text-center">&copy; 2022 Swadeli All rights reserved</p>
+        <p className="text-center font-Roboto">&copy; 2022 Swadeli All rights reserved</p>
       </div>
     </footer>
   );

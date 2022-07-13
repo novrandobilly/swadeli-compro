@@ -5,6 +5,11 @@
   src: local("PoetsenOne"),
     url(../assets/font/PoetsenOne-Regular.woff) format("woff");
 }
+@font-face {
+  font-family: "Manrope";
+  src: local("Manrope"),
+    url(../assets/font/Manrope-Regular.ttf) format("ttf");
+}
 @tailwind utilities;
 html,
 body {

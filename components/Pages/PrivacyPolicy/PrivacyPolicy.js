@@ -95,15 +95,15 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-[#E6934A] pb-32">
       <div className="py-14">
-        <h1 className="text-center text-[90px] text-white font-bold leading-[5.5rem]">
+        <h1 className="font-PoetsenOne text-center text-[90px] text-white font-bold leading-[5.5rem]">
           Our
           <br /> Privacy Policy
         </h1>
       </div>
       <div className="w-3/4 mx-auto">
-        <p className="text-white mb-10 text-center">September 2021</p>
+        <p className="font-Roboto text-white mb-10 text-center">September 2021</p>
         <div className="bg-white rounded-xl px-12 pb-20 pt-14">
-          <pre className="font-sans whitespace-pre-line">{message}</pre>
+          <pre className="font-Roboto font-sans whitespace-pre-line">{message}</pre>
         </div>
       </div>
     </div>
