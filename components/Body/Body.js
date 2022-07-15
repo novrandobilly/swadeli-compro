@@ -97,62 +97,71 @@ const Body = () => {
         </div>
       </div>
       <div className="bg-[#FED002] pb-[70px]">
-        <h1 className="font-normal font-Platform text-[80px] text-[#1D493D] text-center mt-[77px] mb-[50px]">
-          Where We Deliver
+        <h1 className="font-normal font-Platform text-[50px] leading-[3rem] lg:leading-none lg:text-[80px] text-[#1D493D] text-center mt-10 lg:mt-[77px] mb-[50px]">
+          Where <br className="lg:hidden block" /> We Deliver
         </h1>
-        <div className="flex flex-row justify-evenly">
-          <div className="flex flex-col justify-between ">
-            <GoLocation className="w-[61px] h-[74px] text-[#1D493D] mx-auto" />
-            <p className="text-center text-[40px] text-[#1D493D] font-Roboto">
+        <div className="flex flex-col lg:flex-row justify-evenly gap-7 lg:gap-0">
+          <div className="flex flex-row lg:flex-col lg:justify-between px-8 gap-4 lg:gap-0 lg:px-0">
+            <GoLocation className="w-[40px] lg:w-[61px] h-[64px] lg:h-[74px] text-[#1D493D] lg:mx-auto" />
+            <p className="text-center lg:text-[40px] text-[30px] my-auto lg:my-0 text-[#1D493D] font-Roboto">
               Kebayoran Lama
             </p>
           </div>
-          <div className="flex flex-col justify-between">
-            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+          <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
+            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
               Duren Sawit
             </p>
           </div>
-          <div className="flex flex-col justify-between">
-            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+          <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
+            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="text-center text-[40px] text-[#EEB802]">Cibubur</p>
+            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+              Cibubur
+            </p>
           </div>
-          <div className="flex flex-col justify-between">
-            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+          <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
+            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
               Pondok Indah
             </p>
           </div>
-          <div className="flex flex-col justify-between">
-            <div className="font-Roboto w-[152px] mx-auto h-[60] pt-[6px] pb-[6px] mb-[32px] rounded-full text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
+          <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
+            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
               SOON
             </div>
-            <p className="font-Roboto text-center text-[40px] text-[#EEB802]">Bintaro</p>
+            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+              Bintaro
+            </p>
           </div>
         </div>
-        <p className="font-Roboto mt-[131px] text-[#476332] text-[26px] text-center mb-[13px]">
+        <p className="font-Roboto mt-[100px] lg:mt-[131px] text-[#476332] text-[26px] text-center mb-[13px] px-8 lg:px-0">
           We don&apos;t deliver to your area yet?
         </p>
-        <div
-          onClick={() => setShowModal(true)}
-          className="w-[975px] cursor-pointer h-[118px] bg-[#1D493D] px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
-        >
-          <span className="text-[40px] text-white my-auto font-Roboto">
-            Let us know where you&apos;d like us to be!
-          </span>
-          <FiChevronRight className="text-[40px] text-white my-auto" />
+        <div className="px-8 lg:px-0 mx-auto lg:mx-0">
+          <div
+            onClick={() => setShowModal(true)}
+            className="w-5/6 cursor-pointer h-[50px] lg:h-[118px] bg-[#1D493D] px-[20px] lg:px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
+          >
+            <span className="lg:text-[40px] hidden lg:block text-[18px] text-white my-auto font-Roboto">
+              Let us know where you&apos;d like us to be!
+            </span>
+            <span className="lg:text-[40px] lg:hidden text-[18px] text-white my-auto font-Roboto">
+              Tell us where to go!
+            </span>
+            <FiChevronRight className="text-[40px] text-white my-auto" />
+          </div>
         </div>
       </div>
 
       <div className="bg-[#F6F4E3] pb-32">
-        <h1 className="mt-[105px] mb-[90px] text-[70px] text-center font-Platform">
-          Opportunities with{" "}
+        <h1 className="lg:mt-[105px] mt-[50px] mb-[90px] leading-10 lg:leading-none text-[40px] lg:text-[70px] text-center font-Platform">
+          Opportunities <br className="lg:hidden" /> with{" "}
           <span className="font-PoetsenOne font-bold">Swadeli</span>
         </h1>
         <div className="flex flex-row w-2/3 gap-12 mx-auto min-w-screen-2xl">

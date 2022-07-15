@@ -1,15 +1,17 @@
-import React from 'react';
-import { GrClose } from 'react-icons/gr';
+import React from "react";
+import { GrClose } from "react-icons/gr";
 export default function Modal({ setShowModal }) {
   const handlePopUp = (e) => {
-    if (e.target.id === 'container' || e.target.id === 'close') setShowModal(false);
+    if (e.target.id === "container" || e.target.id === "close")
+      setShowModal(false);
   };
   return (
     <div
       id="container"
       onClick={handlePopUp}
-      className="fixed inset-0 z-20 flex flex-col items-center justify-center backdrop-blur-sm bg-white/30">
-      <div className="relative w-2/4 p-10 bg-white rounded-t-lg h-2/4">
+      className="fixed inset-0 z-20 flex flex-col items-center justify-center backdrop-blur-sm bg-white/30"
+    >
+      <div className="relative w-3/4 lg:w-2/4 p-8 lg:p-10 bg-white rounded-t-lg h-2/4">
         <GrClose id="close" className="absolute cursor-pointer right-4 top-4" />
         <div className="flex flex-col mt-3">
           <label htmlFor="name" className="mb-1 font-semibold">
@@ -45,7 +47,7 @@ export default function Modal({ setShowModal }) {
           />
         </div>
       </div>
-      <div className="cursor-pointer bg-[#1D493D] w-2/4 rounded-b-lg px-10 py-5 text-white font-semibold text-xl hover:bg-[#183d33]">
+      <div className="cursor-pointer bg-[#1D493D] w-3/4 lg:w-2/4 rounded-b-lg px-10 py-5 text-white font-semibold text-xl hover:bg-[#183d33]">
         Submit
       </div>
     </div>
