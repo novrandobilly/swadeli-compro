@@ -93,17 +93,19 @@ export default function PrivacyPolicy() {
   PEMBARUAN KEBIJAKAN PRIVASI
   Astro dapat sewaktu-waktu melakukan perubahan atau pembaruan terhadap Kebijakan Privasi ini. Astro menyarankan agar Pengguna membaca secara seksama dan memeriksa halaman Kebijakan Privasi ini dari waktu ke waktu untuk mengetahui perubahan apapun. Dengan tetap mengakses dan menggunakan layanan Situs maupun layanan Astro lainnya, maka Pengguna dianggap menyetujui perubahan-perubahan dalam Kebijakan Privasi.`;
   return (
-    <div className="bg-[#E6934A] pb-32">
-      <div className="py-14">
-        <h1 className="font-PoetsenOne text-center text-[90px] text-white font-bold leading-[5.5rem]">
+    <div className="bg-[#E6934A] pb-20 lg:pb-32">
+      <div className="py-10 lg:py-14">
+        <h1 className="font-PoetsenOne text-center text-[50px] lg:text-[90px] text-white font-bold leading-[3.5rem] lg:leading-[5.5rem]">
           Our
-          <br /> Privacy Policy
+          <br className="hidden lg:block" /> Privacy Policy
         </h1>
       </div>
-      <div className="w-3/4 mx-auto">
-        <p className="font-Roboto text-white mb-10 text-center">September 2021</p>
-        <div className="bg-white rounded-xl px-12 pb-20 pt-14">
-          <pre className="font-Roboto font-sans whitespace-pre-line">{message}</pre>
+      <div className="w-full px-6 lg:w-3/4 mx-auto">
+        <p className="font-Roboto text-white mb-10 text-center hidden lg:block">
+          September 2021
+        </p>
+        <div className="bg-white rounded-xl px-5 lg:px-12 lg:pb-20 pb-8 pt-8 lg:pt-14">
+          <pre className="font-Roboto whitespace-pre-line">{message}</pre>
         </div>
       </div>
     </div>

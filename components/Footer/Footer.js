@@ -20,7 +20,9 @@ const Footer = () => {
           />
         </div>
         <div className="mt-4 lg:mt-0">
-          <h1 className="font-semibold text-[20px] mb-2 font-Platform">About Swadeli</h1>
+          <h1 className="font-semibold text-[20px] mb-2 font-Platform">
+            About Swadeli
+          </h1>
           <div className="flex flex-col lg:flex-row lg:gap-16">
             <div className="flex flex-col ">
               <Link href="/">
@@ -53,7 +55,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1 className="font-semibold text-[20px] mb-2">CONTACT US</h1>
+          <h1 className="font-semibold lg:uppercase font-Platform text-[20px] mb-2">
+            Contact us
+          </h1>
           <div>
             <p className="font-Roboto">hello@swadeli.id</p>
             <p className="font-Roboto">+62 812 8118 9115</p>
@@ -127,8 +131,10 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1 className="font-semibold text-[20px] mb-2 font-Platform">DOWNLOAD</h1>
-          <div className="flex flex-col gap-1 w-44">
+          <h1 className="font-semibold  text-[20px] mb-2 lg:uppercase font-Platform">
+            Download
+          </h1>
+          <div className="flex flex-col gap-1 w-40">
             <Image
               src={appStore}
               width={140}
@@ -147,7 +153,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-4 bg-[#FED002]">
-        <p className="text-center font-Roboto">&copy; 2022 Swadeli All rights reserved</p>
+        <p className="text-center font-Roboto">
+          &copy; 2022 Swadeli All rights reserved
+        </p>
       </div>
     </footer>
   );
