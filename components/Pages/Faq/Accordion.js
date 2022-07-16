@@ -70,7 +70,7 @@ export default function Accordion() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center h-auto py-12 pt-10 bg-white rounded-xl ">
+    <div className="flex flex-col justify-center h-auto px-5 lg:px-0 py-5 lg:py-12 lg:pt-10 bg-white rounded-xl ">
       {data.map((data) => {
         return (
           <AccordionComp

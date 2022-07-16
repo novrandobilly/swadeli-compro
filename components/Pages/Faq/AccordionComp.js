@@ -10,7 +10,7 @@ export default function AccordionComp({ title, id, index, answer, setIndex }) {
   return (
     <>
       <div
-        className="flex group cursor-pointer w-3/4 mx-auto h-16 justify-between items-center p-2 mb-[22px] rounded-lg bg-[#FED002] "
+        className="flex group cursor-pointer w-full lg:w-3/4 mx-auto h-16 justify-between items-center p-2 mb-[22px] rounded-lg bg-[#FED002] "
         onClick={() => {
           handleSetIndex(id);
         }}

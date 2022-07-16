@@ -8,6 +8,7 @@ $breakpoint-large: 1024px;
   justify-content: space-between;
   padding: 10px 25px;
   margin: auto;
+  z-index: 999;
   .temp {
     right: 0 !important;
   }
