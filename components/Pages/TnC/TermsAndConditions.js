@@ -86,16 +86,16 @@ export default function TermsAndConditions() {
     
     Astro akan melakukan penggantian atau pengembalian dana dalam hal terdapat klaim atau laporan terkait dengan ketidaksesuaian atas Barang yang dik`;
   return (
-    <div className="bg-[#1D493D] pb-32 z-10">
+    <div className="bg-[#1D493D] pb-32 ">
       <div className="py-14">
-        <h1 className="font-PoetsenOne text-center text-[90px] text-white font-bold leading-[5.5rem]">
+        <h1 className="font-PoetsenOne relative z-[5]  text-center text-[90px] text-white font-bold leading-[5.5rem]">
           Terms & <br /> Conditions
         </h1>
       </div>
-      <div className="w-3/4 mx-auto">
+      <div className="w-3/4 mx-auto z-2 relative z-[3]">
         <p className="text-white mb-5 font-Roboto">September 2021</p>
         <div className="bg-white rounded-xl px-12 pb-20 pt-14">
-          <pre className="font-sans whitespace-pre-line font-Roboto">{message}</pre>
+          <pre className=" whitespace-pre-line font-Roboto">{message}</pre>
         </div>
       </div>
     </div>

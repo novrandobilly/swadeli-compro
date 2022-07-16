@@ -159,15 +159,17 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="bg-[#F6F4E3] pb-32">
-        <h1 className="lg:mt-[105px] mt-[50px] mb-[90px] leading-10 lg:leading-none text-[40px] lg:text-[70px] text-center font-Platform">
+      <div className="bg-[#F6F4E3] pb-20 lg:pb-32">
+        <h1 className="lg:mt-[105px] mt-[50px] lg:mb-[90px] mb-[50px] leading-10 lg:leading-none text-[40px] lg:text-[70px] text-center font-Platform">
           Opportunities <br className="lg:hidden" /> with{" "}
           <span className="font-PoetsenOne font-bold">Swadeli</span>
         </h1>
-        <div className="flex flex-row w-2/3 gap-12 mx-auto min-w-screen-2xl">
-          <div className={`flex-1 relative ${styles["bg-bicycle"]}`}>
+        <div className="flex flex-row w-full px-5 lg:px-0 lg:w-2/3 gap-5 lg:gap-12 mx-auto lg:min-w-screen-2xl ">
+          <div
+            className={`flex-1 relative ${styles["bg-bicycle"]} w-52 h-48 lg:h-[500px]`}
+          >
             {/* <Image src={bicycleMan} width={594} height={617} /> */}
-            <div className="absolute flex flex-row gap-16 cursor-pointer bottom-16 -right-64">
+            <div className="absolute hidden lg:flex flex-row gap-16 cursor-pointer bottom-16 -right-64">
               <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
                 <HiOutlineArrowNarrowRight className="my-auto text-6xl font-bold text-white" />
               </div>
@@ -177,28 +179,27 @@ const Body = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="font-Platform text-[60px] leading-[4rem] text-[#4C9840] font-semibold">
+            <h1 className="font-Platform text-[28px] lg:text-[60px] leading-[2rem] lg:leading-[4rem] text-[#4C9840] font-semibold">
               Be part of the dream team
             </h1>
-            <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12 font-Roboto font-normal">
+            <p className="lg:text-[32px] text-[18px] leading-[1.2rem] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 font-Roboto font-normal">
               Build your career and grow with us! Join our office team or our
               delivery team.
             </p>
-            {/* <div className="flex flex-row mt-9 absolute left-[37rem] gap-16 cursor-pointer">
-              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
-                <HiOutlineArrowNarrowRight className="my-auto text-6xl font-bold text-white" />
-              </div>
-              <span className="text-[26px] my-auto text-[#4C9840]">
-                APPLY NOW
-              </span>
-            </div> */}
           </div>
         </div>
-        <div className="w-[64%] h-[.1px] bg-[#4C9840] mx-auto my-[3rem]"></div>
-        <div className="flex flex-row-reverse w-2/3 gap-12 mx-auto min-w-screen-2xl">
-          <div className={`flex-1 relative ${styles["bg-fruits"]}`}>
+        <div className="px-5 mt-7">
+          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-4">
+            Apply now
+          </button>
+        </div>
+        <div className="w-[90%] lg:w-[64%] h-[.1px] bg-[#4C9840] mx-auto my-[3rem]"></div>
+        <div className="flex flex-row-reverse w-full px-5 lg:px-0 lg:w-2/3 gap-5 lg:gap-12 mx-auto min-w-screen-2xl ">
+          <div
+            className={`flex-1 relative ${styles["bg-fruits"]} w-52 h-48 lg:h-[500px]`}
+          >
             {/* <Image src={fruits} width={594} height={617} /> */}
-            <div className="absolute flex flex-row-reverse gap-16 cursor-pointer mt-9 bottom-16 -left-64">
+            <div className="absolute hidden lg:flex flex-row-reverse gap-16 cursor-pointer mt-9 bottom-16 -left-64">
               <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
                 <HiOutlineArrowNarrowLeft className="my-auto text-6xl font-bold text-white" />
               </div>
@@ -208,14 +209,19 @@ const Body = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-[60px] leading-[4rem] text-[#4C9840] font-semibold text-right font-Platform">
-              Collaborate with us
+            <h1 className="text-[28px] lg:text-[60px] leading-[2rem] lg:leading-[4rem] text-[#4C9840] font-semibold lg:text-right font-Platform">
+              Collaborate <br className="" /> with us
             </h1>
-            <p className="text-[32px] leading-[2rem] text-[#3D3D39] mt-12 text-right">
+            <p className="lg:text-[32px] text-[18px] leading-[1.2rem] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 lg:text-right font-Roboto font-normal">
               Expand your reach with us! Swadeli invites brands to collaborate
               as partners.
             </p>
           </div>
+        </div>
+        <div className="px-5 mt-7">
+          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-4">
+            Apply now
+          </button>
         </div>
       </div>
 
