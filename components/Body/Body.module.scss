@@ -71,6 +71,8 @@ $breakpoint-large: 1024px;
   .content-2 {
     // margin-top: -15px;
     // z-index: -1000;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: -13px;
     padding-top: 36px;
     padding-bottom: 45.48px;
@@ -94,7 +96,7 @@ $breakpoint-large: 1024px;
         font-style: normal;
         color: #1d493d;
         font-weight: 400;
-        font-size: 35px;
+        font-size: 5vw;
         span {
           font-family: "Platform";
           font-weight: bold;
@@ -105,11 +107,11 @@ $breakpoint-large: 1024px;
         font-family: "Platform";
         font-style: normal;
         font-weight: 400;
-        font-size: 102.308px;
+        font-size: 15vw;
       }
       .button-order {
         cursor: pointer;
-        width: 225px;
+        width: 30vw;
         height: 58px;
         color: white;
         background: #1d493d;
@@ -118,7 +120,7 @@ $breakpoint-large: 1024px;
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 28px;
+          font-size: 3vw;
           text-align: center;
         }
       }
@@ -130,6 +132,7 @@ $breakpoint-large: 1024px;
     flex-direction: row;
     .box-1 {
       display: flex;
+      order: 1;
       width: 50%;
       height: 50vw;
       // padding-bottom: 50%;
@@ -158,12 +161,14 @@ $breakpoint-large: 1024px;
         }
       }
     }
-    .box-2 {
-      width: 50%;
-      height: 50vw;
-      background-image: url("../../assets/eggs.png");
-    }
+      .box-2 {
+        order: 2;
+        width: 50%;
+        height: 50vw;
+        background-image: url("../../assets/eggs.png");
+      }
     .box-3 {
+      order: 5;
       display: flex;
       width: 50%;
       height: 50vw;
@@ -192,18 +197,21 @@ $breakpoint-large: 1024px;
       }
     }
     .box-4 {
+      order: 6;
       width: 50%;
       height: 50vw;
       background-size: cover;
       background-image: url("../../assets/meat.png");
     }
     .box-5 {
+      order: 3;
       width: 50%;
       height: 50vw;
       background-size: cover;
       background-image: url("../../assets/fruits.png");
     }
     .box-6 {
+      order: 4;
       display: flex;
       width: 50%;
       height: 50vw;
@@ -231,12 +239,14 @@ $breakpoint-large: 1024px;
       }
     }
     .box-7 {
+      order: 7;
       width: 50%;
       height: 50vw;
       background-size: cover;
       background-image: url("../../assets/red-meat.png");
     }
     .box-8 {
+      order: 8;
       display: flex;
       width: 50%;
       height: 50vw;
@@ -392,6 +402,7 @@ $breakpoint-large: 1024px;
       flex-wrap: wrap;
       flex-direction: row;
       .box-1 {
+        order: 1;
         display: flex;
         flex: 1/4;
         width: 25%;
@@ -420,12 +431,14 @@ $breakpoint-large: 1024px;
         }
       }
       .box-2 {
+        order: 2;
         flex: 1/4;
         width: 25%;
         height: 30vw;
         background-image: url("../../assets/eggs.png");
       }
       .box-3 {
+        order: 3;
         display: flex;
         flex: 1/4;
         width: 25%;
@@ -454,6 +467,7 @@ $breakpoint-large: 1024px;
         }
       }
       .box-4 {
+        order: 4;
         flex: 1/4;
         width: 25%;
         height: 30vw;
@@ -461,6 +475,7 @@ $breakpoint-large: 1024px;
         background-image: url("../../assets/meat.png");
       }
       .box-5 {
+        order: 5;
         flex: 1/4;
         width: 25%;
         height: 30vw;
@@ -468,6 +483,7 @@ $breakpoint-large: 1024px;
         background-image: url("../../assets/fruits.png");
       }
       .box-6 {
+        order: 6;
         display: flex;
         flex: 1/4;
         width: 25%;
@@ -496,6 +512,7 @@ $breakpoint-large: 1024px;
         }
       }
       .box-7 {
+        order: 7;
         flex: 1/4;
         width: 25%;
         height: 30vw;
@@ -503,6 +520,7 @@ $breakpoint-large: 1024px;
         background-image: url("../../assets/red-meat.png");
       }
       .box-8 {
+        order: 8;
         display: flex;
         flex: 1/4;
         width: 25%;
