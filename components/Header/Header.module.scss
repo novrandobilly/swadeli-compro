@@ -8,25 +8,30 @@ $breakpoint-large: 1024px;
   justify-content: space-between;
   padding: 10px 25px;
   margin: auto;
-  z-index: 999;
+  z-index: 11;
+  //overflow: hidden;
+  //position: relative;
+  background-color: white;
   .temp {
     right: 0 !important;
+    display: flex !important;
+    z-index: 900 !important;
   }
   .logo {
-    z-index: 10;
+    z-index: 9999;
     cursor: pointer;
   }
   .navigation {
-    //display: none;
+    display: none;
     position: absolute;
     background-color: white;
-    display: flex;
+    //display: flex;
     flex-direction: column;
     top: 0;
     right: -120%;
     animation: ease-in;
     transition: 500ms;
-    z-index: 1;
+    z-index: 999 !important;
     padding: 80px 25px 10px 25px;
     width: 100vw;
     height: 100vh;
@@ -55,7 +60,7 @@ $breakpoint-large: 1024px;
     }
   }
   .menu {
-    z-index: 1;
+    z-index: 999;
     color: #1d493d;
     font-size: 26px;
     font-weight: bold;

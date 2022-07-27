@@ -20,35 +20,31 @@
     url("//db.onlinewebfonts.com/t/1f48900b62d277f357bb39ca68a9dd49.svg#Platform Jules Light")
       format("svg");
 }
+$breakpoint-tablet: 640px;
+$breakpoint-desktop: 768px;
+$breakpoint-large: 1024px;
+
 .body {
   display: flex;
   flex-direction: column;
   margin: 0px 0px;
-  .content-1 {
+  .container-c1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     background-color: #6ead60;
-    width: 100%;
-    height: 728px;
-    .apple-image {
-      width: 724px;
-      // width: 934px;
-    }
     .text-content-1 {
-      display: flex;
-      flex-direction: column;
-      width: 672.21px;
-      height: 607px;
-      margin-left: 43px;
+      margin-top: 49px;
+      margin-left: 30px;
+      margin-bottom: auto;
+      .img-c1 {
+        transform: scale(2);
+      }
       h1 {
-        margin: auto !important;
-        padding-top: 45px;
         font-family: "Platform";
         font-weight: 400;
         font-style: normal;
         color: #e5e5e5;
-        font-size: 80.1932px;
-        line-height: 108px;
+        font-size: 10vw;
         span {
           font-weight: bold;
         }
@@ -56,49 +52,49 @@
           font-family: "Platform-BoldItalic";
         }
       }
-    }
-    .image-button {
-      display: flex;
-      flex-direction: row;
-      margin-top: 10px;
-      .app-store {
-        cursor: pointer;
-        width: 200px;
-        height: 51px;
-        margin-right: 15px;
-      }
-      .google-play {
-        cursor: pointer;
-        width: 200px;
-        height: 51px;
+      .image-button {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        .app-store {
+          cursor: pointer;
+          width: 40vw;
+          margin-right: 15px;
+        }
+        .google-play {
+          cursor: pointer;
+          width: 40vw;
+        }
       }
     }
   }
   .content-2 {
-    margin: 0px;
+    // margin-top: -15px;
+    // z-index: -1000;
+    margin-top: -13px;
+    padding-top: 36px;
+    padding-bottom: 45.48px;
     width: 100%;
-    height: 363px;
     background-size: cover;
     background-image: url("../../assets/content-2.png");
     // background: #FED002;
-    display: flex;
-    align-items: center;
     .text-content-2 {
       display: flex;
-      flex-direction: row;
-      gap: 54px;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: auto;
-      width: 100%;
-      height: 117px;
+      // display: flex;
+      // flex-direction: row;
+      // margin: auto;
+      // width: 100%;
+      // height: 117px;
       h2 {
         font-family: "Platform Jules Light";
         font-style: normal;
         color: #1d493d;
         font-weight: 400;
-        font-size: 45px;
-        line-height: 120px;
+        font-size: 35px;
         span {
           font-family: "Platform";
           font-weight: bold;
@@ -109,13 +105,12 @@
         font-family: "Platform";
         font-style: normal;
         font-weight: 400;
-        font-size: 132.308px;
-        line-height: 132px;
+        font-size: 102.308px;
       }
       .button-order {
         cursor: pointer;
-        width: 245px;
-        height: 78px;
+        width: 225px;
+        height: 58px;
         color: white;
         background: #1d493d;
         border-radius: 16px;
@@ -124,7 +119,6 @@
           font-style: normal;
           font-weight: 400;
           font-size: 28px;
-          line-height: 47px;
           text-align: center;
         }
       }
@@ -136,18 +130,19 @@
     flex-direction: row;
     .box-1 {
       display: flex;
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
+      // padding-bottom: 50%;
       background: #ffffff;
       .text-box-1 {
         margin: auto 0;
+        text-align: center;
         h3 {
           margin: 0;
           font-family: "Platform";
           font-style: normal;
           font-weight: 400;
-          font-size: 58.8665px;
+          font-size: 7vw;
           text-align: center;
           color: #56874d;
           margin-bottom: 10px;
@@ -157,23 +152,21 @@
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 29.7912px;
+          font-size: 4.5vw;
           text-align: center;
           color: #565656;
         }
       }
     }
     .box-2 {
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background-image: url("../../assets/eggs.png");
     }
     .box-3 {
       display: flex;
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background: #ffffff;
       .text-box-2 {
         margin: auto 0;
@@ -182,7 +175,7 @@
           font-family: "Platform";
           font-style: normal;
           font-weight: 400;
-          font-size: 58.8665px;
+          font-size: 7vw;
           text-align: center;
           color: #805219;
           margin-bottom: 10px;
@@ -192,31 +185,28 @@
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 29.7912px;
+          font-size: 4.5vw;
           text-align: center;
           color: #565656;
         }
       }
     }
     .box-4 {
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background-size: cover;
       background-image: url("../../assets/meat.png");
     }
     .box-5 {
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background-size: cover;
       background-image: url("../../assets/fruits.png");
     }
     .box-6 {
       display: flex;
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background: #ffffff;
       .text-box-3 {
         margin: auto 0;
@@ -225,34 +215,31 @@
           font-family: "Platform";
           font-style: normal;
           font-weight: 400;
-          font-size: 58.8665px;
+          font-size: 7vw;
           text-align: center;
           color: #1d493d;
-          margin-bottom: 10px;
         }
         p {
           margin: 0;
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 29.7912px;
+          font-size: 4.5vw;
           text-align: center;
           color: #565656;
         }
       }
     }
     .box-7 {
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background-size: cover;
       background-image: url("../../assets/red-meat.png");
     }
     .box-8 {
       display: flex;
-      flex: 1/4;
-      width: 25%;
-      height: 384px;
+      width: 50%;
+      height: 50vw;
       background: #ffffff;
       .text-box-4 {
         margin: auto 0;
@@ -261,17 +248,16 @@
           font-family: "Platform";
           font-style: normal;
           font-weight: 400;
-          font-size: 58.8665px;
+          font-size: 7vw;
           text-align: center;
           color: #d24523;
-          margin-bottom: 10px;
         }
         p {
           margin: 0;
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 29.7912px;
+          font-size: 4.5vw;
           text-align: center;
           color: #565656;
         }
@@ -303,5 +289,247 @@
     background-image: url(../../assets/mockup.png);
     background-size: cover;
     background-position: center;
+  }
+}
+@media (min-width: $breakpoint-tablet) {
+  //above phone
+  .body {
+    .container-c1 {
+      padding-right: 20px;
+      display: flex;
+      flex-direction: row;
+      background-color: #6ead60;
+      .text-content-1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        h1 {
+          font-family: "Platform";
+          font-weight: 400;
+          font-style: normal;
+          color: #e5e5e5;
+          font-size: 4.5vw;
+          span {
+            font-weight: bold;
+          }
+          .text-italic {
+            font-family: "Platform-BoldItalic";
+          }
+        }
+        .image-button {
+          display: flex;
+          flex-direction: row;
+          margin-top: 10px;
+          .app-store {
+            cursor: pointer;
+            width: 15vw;
+            margin-right: 15px;
+          }
+          .google-play {
+            cursor: pointer;
+            width: 15vw;
+          }
+        }
+      }
+    }
+    .content-2 {
+      margin-top: -5px;
+      padding-left: 36px;
+      padding-top: 58px;
+      padding-bottom: 58px;
+      padding-right: 36px;
+      width: 100%;
+      background-size: cover;
+      background-image: url("../../assets/content-2.png");
+      // background: #FED002;
+      .text-content-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 44px;
+        // display: flex;
+        // flex-direction: row;
+        // margin: auto;
+        // width: 100%;
+        // height: 117px;
+        h2 {
+          font-family: "Platform Jules Light";
+          font-style: normal;
+          color: #1d493d;
+          font-weight: 400;
+          font-size: 3vw;
+          span {
+            font-family: "Platform";
+            font-weight: bold;
+          }
+        }
+        h1 {
+          color: #1d493d;
+          font-family: "Platform";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 8vw;
+        }
+        .button-order {
+          cursor: pointer;
+          width: 225px;
+          height: 58px;
+          color: white;
+          background: #1d493d;
+          border-radius: 16px;
+          span {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .content-3 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .box-1 {
+        display: flex;
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background: #ffffff;
+        .text-box-1 {
+          margin: auto 0;
+          h3 {
+            margin: 0;
+            font-family: "Platform";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #56874d;
+          }
+          p {
+            margin: 0;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5vw;
+            text-align: center;
+            color: #565656;
+          }
+        }
+      }
+      .box-2 {
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background-image: url("../../assets/eggs.png");
+      }
+      .box-3 {
+        display: flex;
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background: #ffffff;
+        .text-box-2 {
+          margin: auto 0;
+          h3 {
+            margin: 0;
+            font-family: "Platform";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #805219;
+          }
+          p {
+            margin: 0;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.9vw;
+            text-align: center;
+            color: #565656;
+          }
+        }
+      }
+      .box-4 {
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background-size: cover;
+        background-image: url("../../assets/meat.png");
+      }
+      .box-5 {
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background-size: cover;
+        background-image: url("../../assets/fruits.png");
+      }
+      .box-6 {
+        display: flex;
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background: #ffffff;
+        .text-box-3 {
+          margin: auto 0;
+          h3 {
+            margin: 0;
+            font-family: "Platform";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #1d493d;
+          }
+          p {
+            margin: 0;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8vw;
+            text-align: center;
+            color: #565656;
+          }
+        }
+      }
+      .box-7 {
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background-size: cover;
+        background-image: url("../../assets/red-meat.png");
+      }
+      .box-8 {
+        display: flex;
+        flex: 1/4;
+        width: 25%;
+        height: 30vw;
+        background: #ffffff;
+        .text-box-4 {
+          margin: auto 0;
+          h3 {
+            margin: 0;
+            font-family: "Platform";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #d24523;
+          }
+          p {
+            margin: 0;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5vw;
+            text-align: center;
+            color: #565656;
+          }
+        }
+      }
+    }
   }
 }

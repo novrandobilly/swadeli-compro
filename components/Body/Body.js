@@ -22,14 +22,20 @@ const Body = () => {
       <div className={`${showModal ? "block" : "hidden"}`}>
         <Modal setShowModal={setShowModal} />
       </div>
-      <div className={styles["content-1"]}>
-        <div className={styles["apple-image"]}>
-          <Image src={appleImage} alt="Apple Image" />
+      <div className={styles['container-c1']}>
+        <div>
+          <Image
+            id="img-c1"
+            src={appleImage}
+            width={709}
+            height={714}
+            alt="Apple Image"
+          />
         </div>
         <div className={styles["text-content-1"]}>
           <h1>
-            Groceries and time, at your hands. Delivered to you <br />
-            in <span>15 minutes!</span>
+            Groceries and time, <br/> at your hands. <br/> Delivered to you <br/>
+            in <span>15 minutes!</span> <br/>
             <span className={styles["text-italic"]}> #BeliDiSwadeli</span>
           </h1>
           <div className={styles["image-button"]}>
@@ -59,7 +65,7 @@ const Body = () => {
         <div className={styles["box-1"]}>
           <div className={styles["text-box-1"]}>
             <h3>15 Minutes Delivery</h3>
-            <p>Shop all-in 15 minutes. Quick and hassle-free.</p>
+            <p>Shop all-in 15 minutes. <br/>Quick and hassle-free.</p>
           </div>
         </div>
         <div className={styles["box-2"]}></div>
@@ -90,7 +96,7 @@ const Body = () => {
           <div className={styles["text-box-4"]}>
             <h3>Delivery on Demand</h3>
             <p>
-              We&apos;re up late with you. Whenever you need, <br />
+              We&apos;re up late with you. <br/>Whenever you need, <br />
               we always deliver.
             </p>
           </div>

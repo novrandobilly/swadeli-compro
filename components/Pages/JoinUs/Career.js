@@ -9,16 +9,18 @@ import greenApple from '../../../assets/green-apple.png';
 const Career = () => {
   return (
     <div className={styles['container']}>
-      <div className={styles['title']}>
-        <h1>Join us</h1>
-      </div>
-      <div className={styles['sub-title']}>
-        <div className={styles['sub-title-image']}>
-          <Image src={greenApple} alt="Green Apple" />
+      <div className={styles['content-1']}>
+        <div className={styles['title']}>
+            <h1>Join us</h1>
         </div>
-        <div className={styles['sub-title-text']}>
-          <h6>Build your career and grow with us!</h6>
-          <p>Be a part of our office team or delivery team.</p>
+        <div className={styles['sub-title']}>
+          <div className={styles['sub-title-image']}>
+            <Image src={greenApple} alt="Green Apple" />
+          </div>
+          <div className={styles['sub-title-text']}>
+            <h6>Build your career and grow with us!</h6>
+            <p>Be a part of our office team or<br/> delivery team.</p>
+          </div>
         </div>
       </div>
       <div className={styles['form-join-us']}>
@@ -74,25 +76,21 @@ const Career = () => {
           <input type="text" name="linkedinProfile" placeholder="www.linkedin.com/janedoe" />
         </div>
         <div className={styles['btn-submt']}>
-          <button>Submit</button>
+          <button className='font-Roboto'>Submit</button>
         </div>
       </div>
-      <div>
-        <div className={styles['image-1']}>
-          <Image
-            // width={480}
-            // height={850}
-            src={png1}
-            alt="Join us"
-          />
-        </div>
-        <div className={styles['image-2']}>
-          <Image width={920} height={751} src={png2} alt="PNG2" />
-        </div>
-        <div className={styles['image-3']}>
-          <Image width={600} height={431} src={png3} alt="PNG3" />
-        </div>
+      <div className={styles['image-1']}>
+        <Image
+          src={png1}
+          alt="Join us"
+        />
       </div>
+      {/* <div className={styles['image-2']}>
+        <Image width={920} height={751} src={png2} alt="PNG2" />
+      </div>
+      <div className={styles['image-3']}>
+        <Image width={600} height={431} src={png3} alt="PNG3" />
+      </div> */}
     </div>
   );
 };
