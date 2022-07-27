@@ -83,7 +83,7 @@ const Body = () => {
         <div className={styles["box-5"]}></div>
         <div className={styles["box-6"]}>
           <div className={styles["text-box-3"]}>
-            <h3>1000+ of Products</h3>
+            <h3>1000+ of<br/> Products</h3>
             <p>
               Everything on the <br />
               shelves, now at <br />

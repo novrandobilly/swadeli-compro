@@ -24,7 +24,7 @@
         font-family: 'Poetsen One Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 8vw;
+        font-size: 10vw;
         color: #945200;
       }
     }
@@ -131,19 +131,24 @@
     }
   }
   .image-1 {
+    width: 25vw;
     position: absolute;
     bottom: 0px;
     z-index: -1;
     left: 0px;
   }
   .image-2 {
-    left: 140px;
-    top: 1053px;
+    width: 60vw;
     position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    left: 4.5vw;
   }
   .image-3 {
-    left: 780px;
-    top: 1373px;
+    width: 60vw;
     position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    right: 10px;
   }
 }

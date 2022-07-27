@@ -11,13 +11,13 @@ function JoinUs() {
     <div className={styles['container']}>
       <div className={styles['content']}>
         <div className={styles['title-1']}>
-          <h1>Join us!</h1>
+          <h1>Join Us!</h1>
           <div className={styles['responsive-joinus']}>
             <div className={styles['green-apple']}>
               <Image src={greesapple} alt="Green Apple" />
             </div>
             <div className={styles['text-responsive']}>
-              <p className='font-Roboto mb-4'>Build your career and<br/>grow with us!</p>
+              <p className='font-Roboto mb-2'>Build your career and<br/>grow with us!</p>
               <p className="font-normal font-Platform">Be a part of our office team<br/> or delivery team.</p>
             </div>
           </div>
@@ -30,7 +30,7 @@ function JoinUs() {
           {/* <button type='button' href="/">Apply now</button> */}
         </div>
         <div className={styles['title-2']}>
-          <h1>Collaborate with us!</h1>
+          <h1>Collaborate with Us!</h1>
           <p className="md:font-Roboto font-Platform font-bold">Expand your reach with us! Swadeli is <br/>always excited to collaborate with <br/>brands as partners.</p>
           <Link href="/joinus/partnership">
             <a className={styles['button-2']}>Apply now</a>

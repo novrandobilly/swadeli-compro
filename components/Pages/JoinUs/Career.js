@@ -85,12 +85,12 @@ const Career = () => {
           alt="Join us"
         />
       </div>
-      {/* <div className={styles['image-2']}>
+      <div className={styles['image-2']}>
         <Image width={920} height={751} src={png2} alt="PNG2" />
       </div>
       <div className={styles['image-3']}>
         <Image width={600} height={431} src={png3} alt="PNG3" />
-      </div> */}
+      </div>
     </div>
   );
 };
