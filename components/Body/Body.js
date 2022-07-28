@@ -22,7 +22,7 @@ const Body = () => {
       <div className={`${showModal ? "block" : "hidden"}`}>
         <Modal setShowModal={setShowModal} />
       </div>
-      <div className={styles['container-c1']}>
+      <div className={styles["container-c1"]}>
         <div>
           <Image
             id="img-c1"
@@ -34,8 +34,9 @@ const Body = () => {
         </div>
         <div className={styles["text-content-1"]}>
           <h1>
-            Groceries and time, <br/> at your hands. <br/> Delivered to you <br/>
-            in <span>15 minutes!</span> <br/>
+            Groceries and time, <br /> at your hands. <br /> Delivered to you{" "}
+            <br />
+            in <span>15 minutes!</span> <br />
             <span className={styles["text-italic"]}> #BeliDiSwadeli</span>
           </h1>
           <div className={styles["image-button"]}>
@@ -65,7 +66,10 @@ const Body = () => {
         <div className={styles["box-1"]}>
           <div className={styles["text-box-1"]}>
             <h3>15 Minutes Delivery</h3>
-            <p>Shop all-in 15 minutes. <br/>Quick and hassle-free.</p>
+            <p>
+              Shop all-in 15 minutes. <br />
+              Quick and hassle-free.
+            </p>
           </div>
         </div>
         <div className={styles["box-2"]}></div>
@@ -83,7 +87,10 @@ const Body = () => {
         <div className={styles["box-5"]}></div>
         <div className={styles["box-6"]}>
           <div className={styles["text-box-3"]}>
-            <h3>1000+ of<br/> Products</h3>
+            <h3>
+              1000+ of
+              <br /> Products
+            </h3>
             <p>
               Everything on the <br />
               shelves, now at <br />
@@ -96,77 +103,78 @@ const Body = () => {
           <div className={styles["text-box-4"]}>
             <h3>Delivery on Demand</h3>
             <p>
-              We&apos;re up late with you. <br/>Whenever you need, <br />
+              We&apos;re up late with you. <br />
+              Whenever you need, <br />
               we always deliver.
             </p>
           </div>
         </div>
       </div>
       <div className="bg-[#FED002] pb-[70px]">
-        <h1 className="font-normal font-Platform text-[50px] leading-[3rem] lg:leading-none lg:text-[80px] text-[#1D493D] text-center mt-10 lg:mt-[77px] mb-[50px]">
+        <h1 className="font-normal font-Platform text-[13vw] leading-[13vw] lg:leading-none lg:text-[80px] text-[#1D493D] text-center mt-10 lg:mt-[77px] mb-[50px]">
           Where <br className="lg:hidden block" /> We Deliver
         </h1>
         <div className="flex flex-col lg:flex-row justify-evenly gap-7 lg:gap-0">
           <div className="flex flex-row lg:flex-col lg:justify-between px-8 gap-4 lg:gap-0 lg:px-0">
-            <GoLocation className="w-[40px] lg:w-[61px] h-[64px] lg:h-[74px] text-[#1D493D] lg:mx-auto" />
-            <p className="text-center lg:text-[40px] text-[30px] my-auto lg:my-0 text-[#1D493D] font-Roboto">
+            <GoLocation className="w-[10vw] lg:w-[20vw] h-[64px] lg:h-[74px] text-[#1D493D] lg:mx-auto my-auto" />
+            <p className="text-center lg:text-[3vw] text-[8vw] my-auto lg:my-0 text-[#1D493D] font-Roboto">
               Kebayoran Lama
             </p>
           </div>
           <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
-            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
-              SOON
+            <div className="font-Roboto flex my-auto justify-center lg:w-[152px] w-[20vw] lg:mx-auto lg:h-[60px] h-[9.5vw] lg:mb-[32px] rounded-full text-[4vw] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center align-middle">
+              <span className="my-auto ">SOON</span>
             </div>
-            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[3vw] text-[8vw] text-[#EEB802]">
               Duren Sawit
             </p>
           </div>
           <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
-            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
-              SOON
+            <div className="font-Roboto flex my-auto justify-center lg:w-[152px] w-[20vw] lg:mx-auto lg:h-[60px] h-[9.5vw] lg:mb-[32px] rounded-full text-[4vw] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center align-middle">
+              <span className="my-auto ">SOON</span>
             </div>
-            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[3vw] text-[8vw] text-[#EEB802]">
               Cibubur
             </p>
           </div>
           <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
-            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
-              SOON
+            <div className="font-Roboto flex my-auto justify-center lg:w-[152px] w-[20vw] lg:mx-auto lg:h-[60px] h-[9.5vw] lg:mb-[32px] rounded-full text-[4vw] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center align-middle">
+              <span className="my-auto ">SOON</span>
             </div>
-            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[3vw] text-[8vw] text-[#EEB802]">
               Pondok Indah
             </p>
           </div>
           <div className="flex flex-row lg:flex-col lg:justify-between px-8 lg:px-0 gap-4 lg:gap-0">
-            <div className="font-Roboto lg:w-[152px] w-[100px] lg:mx-auto lg:h-[60px] h-[50px] pt-[6px] pb-[6px] lg:mb-[32px] rounded-full text-[20px] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center ">
-              SOON
+            <div className="font-Roboto flex my-auto justify-center lg:w-[152px] w-[20vw] lg:mx-auto lg:h-[60px] h-[9.5vw] lg:mb-[32px] rounded-full text-[4vw] lg:text-[30px] border-[4px] text-[#EEB802] border-[#EEB802] text-center align-middle">
+              <span className="my-auto ">SOON</span>
             </div>
-            <p className="font-Roboto text-center lg:text-[40px] text-[30px] text-[#EEB802]">
+            <p className="font-Roboto text-center lg:text-[3vw] text-[8vw] text-[#EEB802]">
               Bintaro
             </p>
           </div>
         </div>
-        <p className="font-Roboto mt-[100px] lg:mt-[131px] text-[#476332] text-[26px] text-center mb-[13px] px-8 lg:px-0">
+        <p className="font-Roboto mt-[100px] lg:mt-[131px] text-[#476332] text-[5vw] lg:text-[3vw] text-center mb-[13px] px-8 lg:px-0">
           We don&apos;t deliver to your area yet?
         </p>
         <div className="px-8 lg:px-0 mx-auto lg:mx-0">
           <div
             onClick={() => setShowModal(true)}
-            className="w-5/6 cursor-pointer h-[50px] lg:h-[118px] bg-[#1D493D] px-[20px] lg:px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
+            className="w-5/6 cursor-pointer h-[14vw] lg:h-[8vw] bg-[#1D493D] px-[20px] lg:px-[56px] rounded-[13px] mx-auto flex flex-row justify-between"
           >
-            <span className="lg:text-[40px] hidden lg:block text-[18px] text-white my-auto font-Roboto">
+            <span className="lg:text-[3vw] hidden lg:block text-[3vw] text-white my-auto font-Roboto">
               Let us know where you&apos;d like us to be!
             </span>
-            <span className="lg:text-[40px] lg:hidden text-[18px] text-white my-auto font-Roboto">
+            <span className="lg:text-[40px] lg:hidden text-[4vw] text-white my-auto font-Roboto">
               Tell us where to go!
             </span>
-            <FiChevronRight className="text-[40px] text-white my-auto" />
+            <FiChevronRight className="text-[6vw] lg:text-[5vw] text-white my-auto" />
           </div>
         </div>
       </div>
 
       <div className="bg-[#F6F4E3] pb-20 lg:pb-32">
-        <h1 className="lg:mt-[105px] mt-[50px] lg:mb-[90px] mb-[50px] leading-10 lg:leading-none text-[40px] lg:text-[70px] text-center font-Platform">
+        <h1 className="lg:mt-[105px] mt-[50px] lg:mb-[90px] mb-[50px] text-[13vw] leading-[13vw] lg:leading-none lg:text-[80px] text-center font-Platform">
           Opportunities <br className="lg:hidden" /> with{" "}
           <span className="font-PoetsenOne font-bold">Swadeli</span>
         </h1>
@@ -185,17 +193,17 @@ const Body = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="font-Platform text-[28px] lg:text-[60px] leading-[2rem] lg:leading-[4rem] text-[#4C9840] font-semibold">
+            <h1 className="font-Platform text-[8vw] lg:text-[60px] leading-[6.3vw] lg:leading-[4rem] text-[#4C9840] font-semibold">
               Be part of the dream team
             </h1>
-            <p className="lg:text-[32px] text-[18px] leading-[1.2rem] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 font-Roboto font-normal">
+            <p className="lg:text-[32px] text-[4.9vw] leading-[6vw] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 font-Roboto font-normal">
               Build your career and grow with us! Join our office team or our
               delivery team.
             </p>
           </div>
         </div>
         <div className="px-5 mt-7">
-          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-4">
+          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-[2.5vw]">
             Apply now
           </button>
         </div>
@@ -215,17 +223,17 @@ const Body = () => {
             </div>
           </div>
           <div className="flex-1">
-            <h1 className="text-[28px] lg:text-[60px] leading-[2rem] lg:leading-[4rem] text-[#4C9840] font-semibold lg:text-right font-Platform">
+            <h1 className="text-[8vw] lg:text-[60px] leading-[6.3vw] lg:leading-[4rem] text-[#4C9840] font-semibold lg:text-right font-Platform">
               Collaborate <br className="" /> with us
             </h1>
-            <p className="lg:text-[32px] text-[18px] leading-[1.2rem] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 lg:text-right font-Roboto font-normal">
+            <p className="lg:text-[32px] text-[4.9vw] leading-[6vw] lg:leading-[2rem] text-[#3D3D39] mt-8 lg:mt-12 lg:text-right font-Roboto font-normal">
               Expand your reach with us! Swadeli invites brands to collaborate
               as partners.
             </p>
           </div>
         </div>
         <div className="px-5 mt-7">
-          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-4">
+          <button className="lg:hidden bg-[#4C9840] text-white text-[24px]  w-full rounded-xl py-[2.5vw]">
             Apply now
           </button>
         </div>
