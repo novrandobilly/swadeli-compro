@@ -8,16 +8,18 @@ import fruits4 from '../../../assets/fruit2-partner.png';
 const Partnership = () => {
   return (
     <div className={styles['container']}>
-      <div className={styles['title']}>
-        <h1>Collaborate with us</h1>
-      </div>
-      <div className={styles['sub-title']}>
-        <div className={styles['sub-title-image']}>
-          <Image src={fruits2} alt="Fruits 2" />
+      <div className={styles['content-1']}>
+        <div className={styles['title']}>
+          <h1>Collaborate<br/> with us</h1>
         </div>
-        <div className={styles['sub-title-text']}>
-          <h6>Expand your reach with us!</h6>
-          <p>Swadeli is always excited to collaborate with brands as partners.</p>
+        <div className={styles['sub-title']}>
+          <div className={styles['sub-title-image']}>
+            <Image src={fruits2} alt="Fruits 2" />
+          </div>
+          <div className={styles['sub-title-text']}>
+            <h6>Expand your reach with us!</h6>
+            <p>Swadeli is always excited to <br/>collaborate with brands as <br/>partners.</p>
+          </div>
         </div>
       </div>
       <div className={styles['form-partnership']}>

@@ -49,7 +49,7 @@ $breakpoint-large: 1024px;
     .title-1 {
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 25px;
       h1 {
         font-family: "Poetsen One Regular";
         font-style: normal;
@@ -96,7 +96,7 @@ $breakpoint-large: 1024px;
     .title-2 {
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 25px;
       h1 {
         font-family: "Poetsen One Regular";
         font-style: normal;
@@ -179,7 +179,7 @@ $breakpoint-large: 1024px;
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        gap: 48px;
+        gap: 45px;
         flex: 1;
         .responsive-joinus {
           display: none;
@@ -224,7 +224,7 @@ $breakpoint-large: 1024px;
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        gap: 50px;
+        gap: 45px;
         flex: 1;
         z-index: 999;
         h1 {
