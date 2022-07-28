@@ -11,7 +11,7 @@ export default function Modal({ setShowModal }) {
       onClick={handlePopUp}
       className="fixed inset-0 z-20 flex flex-col items-center justify-center backdrop-blur-sm bg-white/30"
     >
-      <div className="relative w-3/4 lg:w-2/4 p-8  lg:p-10 bg-white rounded-t-lg h-3/5">
+      <div className="relative overflow-scroll w-3/4 lg:w-2/4 p-8  lg:p-10 bg-white rounded-t-lg h-3/5">
         <GrClose id="close" className="absolute cursor-pointer right-4 top-4" />
         <div className="flex flex-col mt-3">
           <label htmlFor="name" className="mb-1 font-semibold">
