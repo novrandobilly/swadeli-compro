@@ -8,13 +8,13 @@
     font-family: 'Platform';
     src: url('../../../assets/font/Platform-Regular.ttf');
   }
-.container {
+.top-container {
   background-color: #FED002;
   width: 100%;
-  height: 1550px;
   padding: 90px 110px;
+  box-sizing: border-box;
   .title {
-    margin-bottom: 70px;
+    // margin-bottom: 70px;
     h1 {
       font-family: 'Poetsen One Regular';
       font-style: normal;
@@ -23,20 +23,116 @@
       color: #945200;
     }
   }
-  .middle {
-    transform: translateY(-50%);
+  // .middle {
+  //   // transform: translateY(-50%);
+  //   // position: absolute;
+  //   // left: 0;
+  //   // top: 850px;
+  //   background: #FEC401;
+  //   width: 100%;
+  //   // height: 342px;
+  //   display: flex;
+  //   .text-middle {
+  //     margin: auto auto;
+  //     // width: 558.85px;
+  //     // height: 187px;
+  //     // margin-left: 730px;
+  //     h2 {
+  //       font-family: 'Platform';
+  //       font-style: normal;
+  //       font-weight: 400;
+  //       font-size: 75.2299px;
+  //       line-height: 81px;
+  //       color: #000000;
+  //     }
+  //   }
+  // }
+  // .image-1 {
+  //   // left: 85px;
+  //   width: 515px;
+  //   height: 606px;
+  //   // position: absolute;
+  //   // z-index: 1;
+  //   margin-right: 85px;
+  // }
+  // .text-1 {
+  //   // position: absolute;
+  //   // width: 609px;
+  //   // height: 246px;
+  //   // left: 730px;
+  //   p {
+  //     font-family: 'Roboto';
+  //     font-style: normal;
+  //     font-weight: 400;
+  //     font-size: 30px;
+  //     line-height: 41px;
+  //     color: #000000;
+  //   }
+  // }
+  // .text-2 {
+  //   position: absolute;
+  //   width: 756px;
+  //   height: 321px;
+  //   left: 113px;
+  //   top: 1081px;
+  //   p {
+  //     font-family: 'Roboto';
+  //     font-style: normal;
+  //     font-weight: 400;
+  //     font-size: 30px;
+  //     line-height: 41px;
+  //     color: #000000;
+  //   }
+  // }
+  // .image-2 {
+  //   position: absolute;
+  //   width: 456px;
+  //   height: 603px;
+  //   left: 950px;
+  //   top: 975px;
+  //   z-index: 1;
+  // }
+}
+.middle-container {
+  width: 100%;
+  background-color: #FED002;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .image-1 {
+    top: 0px;
+    width: 515px;
+    height: 606px;
+    left: 85px;
     position: absolute;
-    left: 0;
-    top: 850px;
+  }
+  .image-2 {
+    position: absolute;
+    width: 456px;
+    height: 603px;
+    right: 0px;
+    z-index: 1;
+    bottom: -50px;
+  }
+  .middle {
+    padding: 90px 110px;
+    // transform: translateY(-50%);
+    // position: absolute;
+    // left: 0;
+    // top: 850px;
     background: #FEC401;
     width: 100%;
     height: 342px;
     display: flex;
+    justify-content: end;
+    align-items: center;
     .text-middle {
-      margin: auto auto;
-      width: 558.85px;
-      height: 187px;
-      margin-left: 730px;
+      // margin: auto auto;
+      // width: 558.85px;
+      // height: 187px;
+      
+    text-align: start;
+      // margin-left: 730px;
       h2 {
         font-family: 'Platform';
         font-style: normal;
@@ -47,19 +143,16 @@
       }
     }
   }
-  .image-1 {
-    left: 85px;
-    width: 515px;
-    height: 606px;
-    position: absolute;
-    z-index: 1;
-  }
   .text-1 {
-    position: absolute;
-    width: 609px;
-    height: 246px;
-    left: 730px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 110px;
+    // position: absolute;
+    // width: 609px;
+    // height: 246px;
     p {
+      margin-right: 30px;
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
@@ -69,33 +162,22 @@
     }
   }
   .text-2 {
-    position: absolute;
-    width: 756px;
-    height: 321px;
-    left: 113px;
-    top: 1081px;
-    p {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 30px;
-      line-height: 41px;
-      color: #000000;
-    }
-  }
-  .image-2 {
-    position: absolute;
-    width: 456px;
-    height: 603px;
-    left: 950px;
-    top: 975px;
-    z-index: 1;
+      padding-top: 30px;
+      padding-bottom: 300px;
+      padding-left: 70px;
+      width: 100%;
+      p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+      }
   }
 }
-
-.container-2 {
+.bottom-container {
   width: 100%;
-  height: 1582px;
   background: #F6F4E3;
   padding: 90px 110px;
   .title {

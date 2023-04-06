@@ -6,14 +6,10 @@ import appStore from "../../assets/app-store.png";
 import googlePlay from "../../assets/google-play.png";
 import { FiChevronRight } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
-import leftArrow from "../../assets/arrow-left.png";
-import rightArrow from "../../assets/arrow-right.png";
-import bicycleMan from "../../assets/bycycle-man.png";
-import fruits from "../../assets/fruits.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
-import mockup from "../../assets/mockup.png";
 import Modal from "../Modal/modal";
+import Link from 'next/link';
 
 const Body = () => {
   const [showModal, setShowModal] = useState(false);
@@ -183,14 +179,16 @@ const Body = () => {
             className={`flex-1 relative ${styles["bg-bicycle"]} w-52 h-48 lg:h-[500px]`}
           >
             {/* <Image src={bicycleMan} width={594} height={617} /> */}
-            <div className="absolute hidden lg:flex flex-row gap-16 cursor-pointer bottom-16 -right-64">
-              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
-                <HiOutlineArrowNarrowRight className="my-auto text-6xl font-bold text-white" />
+            <Link href="/joinus/career">
+              <div className="absolute hidden lg:flex flex-row gap-16 cursor-pointer bottom-16 -right-64">
+                <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
+                  <HiOutlineArrowNarrowRight className="my-auto text-6xl font-bold text-white" />
+                </div>
+                <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
+                  APPLY NOW
+                </span>
               </div>
-              <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
-                APPLY NOW
-              </span>
-            </div>
+            </Link>
           </div>
           <div className="flex-1">
             <h1 className="font-Platform text-[8vw] lg:text-[60px] leading-[6.3vw] lg:leading-[4rem] text-[#4C9840] font-semibold">
@@ -213,14 +211,16 @@ const Body = () => {
             className={`flex-1 relative ${styles["bg-fruits"]} w-52 h-48 lg:h-[500px]`}
           >
             {/* <Image src={fruits} width={594} height={617} /> */}
-            <div className="absolute hidden lg:flex flex-row-reverse gap-16 cursor-pointer mt-9 bottom-16 -left-64">
-              <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
-                <HiOutlineArrowNarrowLeft className="my-auto text-6xl font-bold text-white" />
+            <Link href="/joinus/partnership">
+              <div className="absolute hidden lg:flex flex-row-reverse gap-16 cursor-pointer mt-9 bottom-16 -left-64">
+                <div className="w-24 h-24 bg-[#4C9840] flex justify-center rounded-full">
+                  <HiOutlineArrowNarrowLeft className="my-auto text-6xl font-bold text-white" />
+                </div>
+                <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
+                  APPLY NOW
+                </span>
               </div>
-              <span className="text-[26px] my-auto text-[#4C9840] font-Platform font-normal">
-                APPLY NOW
-              </span>
-            </div>
+            </Link>
           </div>
           <div className="flex-1">
             <h1 className="text-[8vw] lg:text-[60px] leading-[6.3vw] lg:leading-[4rem] text-[#4C9840] font-semibold lg:text-right font-Platform">

@@ -164,7 +164,7 @@ $breakpoint-large: 1024px;
     background: #FED002;
     display: flex;
     flex-direction: row;
-    z-index: -2;
+    z-index: 999;
     .content-1 {
       display: block;
       flex: 1;

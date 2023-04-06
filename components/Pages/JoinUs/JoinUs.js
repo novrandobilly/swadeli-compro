@@ -5,6 +5,7 @@ import fruits2 from '../../../assets/joinus-fruit.png';
 import fruits3 from '../../../assets/onion.png';
 import greesapple from '../../../assets/green-apple.png';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 function JoinUs() {
   return (

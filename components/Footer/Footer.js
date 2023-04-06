@@ -28,10 +28,10 @@ const Footer = () => {
               <Link href="/">
                 <a className="font-Roboto">Home</a>
               </Link>
-              <Link href="/">
+              <Link href="/joinus/career">
                 <a className="font-Roboto">Careers</a>
               </Link>
-              <Link href="/">
+              <Link href="/joinus/partnership">
                 <a className="font-Roboto">Partnerships</a>
               </Link>
               <Link href="/">
@@ -45,7 +45,7 @@ const Footer = () => {
               <Link href="/privacy_policy">
                 <a className="font-Roboto">Privacy Policy</a>
               </Link>
-              <Link href="/">
+              <Link href="/faq">
                 <a className="font-Roboto">FAQ</a>
               </Link>
               <Link href="/">

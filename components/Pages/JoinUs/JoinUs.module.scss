@@ -13,12 +13,12 @@ $breakpoint-large: 1024px;
   width: 100%;
   // margin: 0 auto;
   background: #f6f4e3;
-  position: relative;
-  z-index: 1;
+  z-index: 999;
   padding-top: 53px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 53px;
+  position: relative;
   // padding-top: 20px;
   .bckground-img {
     position: absolute;
@@ -76,6 +76,7 @@ $breakpoint-large: 1024px;
       .not-responsive {
         display: none;
       }
+
       .button-1 {
         display: flex;
         justify-content: center;
@@ -139,7 +140,7 @@ $breakpoint-large: 1024px;
     background: #f6f4e3;
     position: relative;
     height: 100vh;
-    z-index: -2;
+    z-index: 999;
     // padding-top: 20px;
     .bckground-img {
       position: absolute;
@@ -210,7 +211,7 @@ $breakpoint-large: 1024px;
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 15px;
+          font-size: 17px;
           color: #f2efd3;
           width: 152px;
           height: 45.5px;
@@ -244,7 +245,6 @@ $breakpoint-large: 1024px;
           color: #262422;
         }
         .button-2 {
-          cursor: pointer;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -252,7 +252,7 @@ $breakpoint-large: 1024px;
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
-          font-size: 15px;
+          font-size: 17px;
           line-height: 18px;
           color: #f2efd3;
           width: 152px;
