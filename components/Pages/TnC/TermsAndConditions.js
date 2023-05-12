@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+
+import leafImage from '../../../assets/leaf.png';
+import tomatoImage from "../../../assets/tomato.png";
+import wortelImage from "../../../assets/wortel.png";
+import brocoliImage from "../../../assets/broccoli.png";
 
 export default function TermsAndConditions() {
   const message = `Selamat datang di Astro!
@@ -86,7 +92,7 @@ export default function TermsAndConditions() {
     
     Astro akan melakukan penggantian atau pengembalian dana dalam hal terdapat klaim atau laporan terkait dengan ketidaksesuaian atas Barang yang dik`;
   return (
-    <div className="bg-[#1D493D] pb-20 lg:pb-32 ">
+    <div className="bg-[#1D493D] pb-20 lg:pb-32 relative">
       <div className="py-14">
         <h1 className="font-PoetsenOne relative z-[5]  text-center text-[50px] lg:text-[90px] text-white font-bold leading-[3.2rem] lg:leading-[5.5rem]">
           Terms & <br /> Conditions
@@ -100,6 +106,31 @@ export default function TermsAndConditions() {
           <pre className=" whitespace-pre-line font-Roboto">{message}</pre>
         </div>
       </div>
+
+       <div className='absolute right-0 top-2/4'>
+          <Image
+            src={leafImage}
+            alt="Leaf"
+          />
+       </div>
+       <div className='absolute right-0 top-[100px]'>
+          <Image
+            src={tomatoImage}
+            alt="Tomato"
+          />
+        </div>
+        <div className='absolute left-0 top-[30%]'>
+          <Image
+            src={wortelImage}
+            alt="Wortel"
+          />
+        </div>
+        <div className='absolute bottom-0 left-[-4rem]'>
+          <Image
+            src={brocoliImage}
+            alt="Wortel"
+          />
+        </div>
     </div>
   );
 }

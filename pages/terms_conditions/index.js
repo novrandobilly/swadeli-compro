@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <Header />
-        <div className={`${styles["broccoli"]} z-[1] relative`}>
+        {/* <div className={`${styles["broccoli"]} z-[1] relative`}>
           <Image
             // width={1290.57}
             // height={1044.14}
@@ -52,7 +52,7 @@ export default function Home() {
             src={Leaf}
             alt="Leaf"
           />
-        </div>
+        </div> */}
         <TermsAndConditions />
         <Footer />
       </main>
